@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D6EC9FFC-5DD2-4CC0-96A2-174B3E0CF5D1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebTest</RootNamespace>
+    <AssemblyName>WebTest</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="angular\angular.js" />
+    <Content Include="angular\HtmlPage1.html" />
+    <Content Include="css\StyleSheet1.css" />
+    <Content Include="JavaScript.js" />
+    <Content Include="js递归\bootstrap.min.css" />
+    <Content Include="js递归\common.css" />
+    <Content Include="fonts\fontawesome-webfont93e3.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="js递归\childer.html" />
+    <Content Include="js递归\jquery-1.11.3.min.js" />
+    <Content Include="js递归\MyTree.html" />
+    <Content Include="js递归\parent.html" />
+    <Content Include="packages.config" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\.classpath" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\.project" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\.settings\.jsdtscope" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\.settings\org.eclipse.core.resources.prefs" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\.settings\org.eclipse.jdt.core.prefs" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\.settings\org.eclipse.jst.ws.cxf.core.prefs" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\.settings\org.eclipse.wst.common.component" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\build\classes\com\geetest\sdk\java\GeetestLib.class" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\build\classes\com\geetest\sdk\java\GeetestMsgLib.class" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\build\classes\com\geetest\sdk\java\msg\demo\GeetestMsgConfig.class" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\build\classes\com\geetest\sdk\java\msg\demo\StartMsgCapthcaServlet.class" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\build\classes\com\geetest\sdk\java\msg\demo\VerifyGeetestServlet.class" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\build\classes\com\geetest\sdk\java\msg\demo\VerifyMsgServlet.class" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\build\classes\com\geetest\sdk\java\UrlClient.class" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\build\classes\com\geetest\sdk\java\web\demo\GeetestConfig.class" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\build\classes\com\geetest\sdk\java\web\demo\StartCapthcaServlet.class" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\build\classes\com\geetest\sdk\java\web\demo\VerifyLoginServlet.class" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\ReadMe.rst" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\WebContent\login.jsp" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\WebContent\META-INF\MANIFEST.MF" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\WebContent\msg_login.jsp" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\极验验证使用说明.doc" />
+    <Content Include="layer-v2.0\doc\jquery下载.url" />
+    <Content Include="layer-v2.0\doc\layer交流.url" />
+    <Content Include="layer-v2.0\doc\layer官网.url" />
+    <Content Include="fonts\fontawesome-webfont93e3.eot" />
+    <Content Include="fonts\fontawesome-webfont93e3.ttf" />
+    <Content Include="fonts\fontawesome-webfont93e3.woff" />
+    <Content Include="fonts\fontawesome-webfont93e3.woff2" />
+    <Content Include="fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regulard41d.eot" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\.gitignore" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\.settings\org.eclipse.wst.common.project.facet.core.xml" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\2015-06-16-001.png" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\2015-06-16-002.png" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\lib\java-json.jar" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\lib\servlet-api.jar" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\src\com\geetest\sdk\java\GeetestLib.java" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\src\com\geetest\sdk\java\GeetestMsgLib.java" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\src\com\geetest\sdk\java\msg\demo\GeetestMsgConfig.java" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\src\com\geetest\sdk\java\msg\demo\StartMsgCapthcaServlet.java" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\src\com\geetest\sdk\java\msg\demo\VerifyGeetestServlet.java" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\src\com\geetest\sdk\java\msg\demo\VerifyMsgServlet.java" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\src\com\geetest\sdk\java\UrlClient.java" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\src\com\geetest\sdk\java\web\demo\GeetestConfig.java" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\src\com\geetest\sdk\java\web\demo\StartCapthcaServlet.java" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\src\com\geetest\sdk\java\web\demo\VerifyLoginServlet.java" />
+    <Content Include="java带服务器滑动验证demo\极验验证使用说明\gt-java-sdk-master\WebContent\WEB-INF\web.xml" />
+    <Content Include="layer-v2.0\demo.html" />
+    <Content Include="layer-v2.0\Demo1.html" />
+    <Content Include="layer-v2.0\layer\extend\layer.ext.js" />
+    <Content Include="layer-v2.0\layer\layer.js" />
+    <Content Include="layer-v2.0\layer\skin\default\icon-ext.png" />
+    <Content Include="layer-v2.0\layer\skin\default\icon.png" />
+    <Content Include="layer-v2.0\layer\skin\default\loading-0.gif" />
+    <Content Include="layer-v2.0\layer\skin\default\loading-1.gif" />
+    <Content Include="layer-v2.0\layer\skin\default\loading-2.gif" />
+    <Content Include="layer-v2.0\layer\skin\layer.css" />
+    <Content Include="layer-v2.0\layer\skin\layer.ext.css" />
+    <Content Include="layer-v2.0\更新日志.txt" />
+    <Content Include="Web.config" />
+    <Content Include="其他可以删除\HtmlPage1.html" />
+    <Content Include="css\HtmlPage2.html" />
+    <Content Include="其他可以删除\移动到A标签显示层离开隐藏层.html" />
+    <Content Include="其他可以删除\jquery-1.11.3.js" />
+    <Content Include="其他可以删除\jquery-1.11.3.min.js" />
+    <Content Include="滑动验证\jquery-1.11.3.js" />
+    <Content Include="滑动验证\v.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>34868</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:34868/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>此项目引用这台计算机上缺少的 NuGet 程序包。使用 NuGet 程序包还原可下载这些程序包。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

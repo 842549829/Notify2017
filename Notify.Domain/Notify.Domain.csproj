@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D822D76-7D6E-4D97-B14C-C8EB8DA20C02}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Notify.Domain</RootNamespace>
+    <AssemblyName>Notify.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountDomain\Account.cs" />
+    <Compile Include="AccountDomain\AccountBuilder.cs" />
+    <Compile Include="AccountDomain\AccountService.cs" />
+    <Compile Include="AccountDomain\AccountValidate.cs" />
+    <Compile Include="MenuDomain\MenuBuilder.cs" />
+    <Compile Include="MenuDomain\MenuService.cs" />
+    <Compile Include="MenuDomain\Resource.cs" />
+    <Compile Include="MenuDomain\SubMenu.cs" />
+    <Compile Include="PermissionDomain\PermissionBuilder.cs" />
+    <Compile Include="PermissionDomain\PermissionCollection.cs" />
+    <Compile Include="PermissionDomain\PermissionRole.cs" />
+    <Compile Include="PermissionDomain\PermissionService.cs" />
+    <Compile Include="PermissionDomain\PermissionValidate.cs" />
+    <Compile Include="RoleDomain\RoleBuilder.cs" />
+    <Compile Include="MenuDomain\Menu.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleDomain\Role.cs" />
+    <Compile Include="RoleDomain\RoleService.cs" />
+    <Compile Include="RoleUserRelationship.cs" />
+    <Compile Include="VerificationCodeDomain\VerificationCode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Notify.Code\Notify.Code.csproj">
+      <Project>{66FBE572-2634-4209-A330-6D17BCBE5D75}</Project>
+      <Name>Notify.Code</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Notify.DbCommon\Notify.DbCommon.csproj">
+      <Project>{639500C4-7C4C-403C-980F-DA269D7243F7}</Project>
+      <Name>Notify.DbCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Notify.IDbFactory\Notify.IDbFactory.csproj">
+      <Project>{4cd99fdf-59eb-4dfa-aa9a-cebdc572ac3f}</Project>
+      <Name>Notify.IDbFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Notify.Infrastructure\Notify.Infrastructure.csproj">
+      <Project>{b69993b5-0b02-41d5-a844-91033c0cd88f}</Project>
+      <Name>Notify.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Notify.IRepository\Notify.IRepository.csproj">
+      <Project>{d54a535b-46db-4716-a229-f1f73bb7e1c7}</Project>
+      <Name>Notify.IRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Notify.Mail\Notify.Mail.csproj">
+      <Project>{9792365A-FF7A-4EAD-A1AB-8A1EECDF5E25}</Project>
+      <Name>Notify.Mail</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Notify.Model\Notify.Model.csproj">
+      <Project>{519A8659-B7EA-4B39-8578-3800AC7CF575}</Project>
+      <Name>Notify.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

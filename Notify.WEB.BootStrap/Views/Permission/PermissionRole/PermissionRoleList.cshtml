@@ -1,0 +1,52 @@
+﻿<div class="wrapper wrapper-content  animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>角色 <small>@ViewBag.AccountName</small></h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <div class="col-sm-8">
+                                <p><input type="checkbox" /><label>等等看看</label></p>
+                                <p><input type="checkbox" /><label>dd</label></p>
+                                <p><input type="checkbox" /><label>翻翻看</label></p>
+                                <p><input type="checkbox" /><label>警方经过 </label></p>
+                                <p><input type="checkbox" /><label>jiaos</label></p>
+                                <p><input type="checkbox" /><label>角色关掉）（速度快</label></p>
+                                <p><input type="checkbox" /><label>洛克菲勒个</label></p>
+                                <p><input type="checkbox" /><label>；立方公里高空个</label></p>
+                                <p><input type="checkbox" /><label>浪费减肥计划</label></p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-3 col-sm-8">
+                                <input type="hidden" id="hidRoleId" value="@ViewBag.AccountId" />
+                                <a id="btnSave" href="javascript:void();" class="btn btn-w-m btn-info">保存数据</a>
+                                &nbsp;&nbsp;
+                                <a id="btnGoBack" href="@Url.Action("UserList","User")" class="btn btn-w-m btn-white">立即返回</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Footer
+{
+    <link href="~/Content/Scripts/tools/zTree_v3/css/zTreeStyle/zTreeStyle.css" rel="stylesheet" />
+    <script src="~/Content/Scripts/tools/zTree_v3/js/jquery.ztree.core-3.5.js"></script>
+    <script src="~/Content/Scripts/tools/zTree_v3/js/jquery.ztree.excheck-3.5.js"></script>
+    <script src="~/Content/Scripts/tools/zTree_v3/js/jquery.ztree.exedit-3.5.js"></script>
+    <script src="~/Content/Scripts/views/Permission/PermissionRole/PermissionRole.js"></script>
+}

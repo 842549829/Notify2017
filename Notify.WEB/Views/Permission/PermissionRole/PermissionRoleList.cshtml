@@ -1,0 +1,29 @@
+﻿@section Header
+{
+    <link href="~/Content/Scripts/tools/zTree_v3/css/zTreeStyle/zTreeStyle.css" rel="stylesheet" />
+    <script src="~/Content/Scripts/tools/zTree_v3/js/jquery.ztree.core-3.5.js"></script>
+    <script src="~/Content/Scripts/tools/zTree_v3/js/jquery.ztree.excheck-3.5.js"></script>
+    <script src="~/Content/Scripts/tools/zTree_v3/js/jquery.ztree.exedit-3.5.js"></script>
+    <script src="~/Content/Scripts/views/Permission/PermissionRole/PermissionRole.js"></script>
+}
+
+<div style="width: 30%; height: 500px;">
+    <div class="easyui-panel" title="@ViewBag.AccountName" style="width: 100%; height: 500px;">
+        <p><input type="checkbox" /><label>等等看看</label></p>
+        <p><input type="checkbox" /><label>dd</label></p>
+        <p><input type="checkbox" /><label>翻翻看</label></p>
+        <p><input type="checkbox" /><label>警方经过 </label></p>
+        <p><input type="checkbox" /><label>jiaos</label></p>
+        <p><input type="checkbox" /><label>角色关掉）（速度快</label></p>
+        <p><input type="checkbox" /><label>洛克菲勒个</label></p>
+        <p><input type="checkbox" /><label>；立方公里高空个</label></p>
+        <p><input type="checkbox" /><label>浪费减肥计划</label></p>
+    </div>
+</div>
+<br />
+<div style="text-align: center; width: 30%; height: 100px;">
+    <input type="hidden" id="hidRoleId" value="@ViewBag.AccountId" />
+    <a id="btnSave" href="javascript:void();" class="easyui-linkbutton" data-options="iconCls:'icon-ok'">保存数据</a>
+    &nbsp;&nbsp;
+    <a id="btnGoBack" href="@Url.Action("UserList","User")" class="easyui-linkbutton" data-options="iconCls:'icon-back'">立即返回</a>
+</div>

@@ -1,0 +1,49 @@
+﻿
+<table id="listData" class="easyui-datagrid">
+    <thead>
+        <tr>
+            <th data-options="field:'Id',width:'220'">ID</th>
+            <th data-options="field:'RoleName',width:'200'">名称</th>
+            <th data-options="field:'RoleDescription',width:'300'">描述</th>
+            <th data-options="field:'id',width:260,formatter:rowformater">操作</th>
+        </tr>
+    </thead>
+</table>
+
+<div id="searchtool" style="padding: 5px">
+    <span>名称：</span><input type="text" id="RoleName" value="" size="10" />
+    <span>描述：</span><input type="text" id="RoleDescription" value="" size="50" />
+    <a href="javascript:findData();" class="easyui-linkbutton" data-options="iconCls:'icon-search'">查询</a>
+    &nbsp;&nbsp;
+    <a id="btnAddRole" href="javascript:void();" class="easyui-linkbutton" data-options="iconCls:'icon-add'">添加</a>
+</div>
+
+<!--修改-->
+<div id="editRole" class="easyui-window" data-options="closed:true" collapsible="false" minimizable="false" maximizable="false" style="width: 300px; height: 150px; padding: 5px;">
+    <div class="easyui-layout" fit="true">
+        <div region="center" border="false" style="padding: 10px; background: #fff; border: 1px solid #ccc;">
+            <table>
+                <tr>
+                    <td>名称：</td>
+                    <td><input id="txtRoleName" type="text" class="txt01" style="width:180px;" /></td>
+                </tr>
+                <tr>
+                    <td>描述：</td>
+                    <td>
+                        <textarea id="textRoleDescription" class="txt01" style="width:180px;"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div region="south" border="false" style="text-align: right; height: 30px; line-height: 30px;">
+            <input type="hidden" value="" id="hidRoleId" />
+            <a id="btnEp" class="easyui-linkbutton" icon="icon-ok" href="javascript:void(0)">确定</a>
+            <a id="btnCancel" class="easyui-linkbutton" icon="icon-cancel" href="javascript:closeEditRole(0)">取消</a>
+        </div>
+    </div>
+</div>
+
+@section Footer
+{
+    <script src="~/Content/Scripts/views/Permission/Role/RoleList.js"></script>
+}

@@ -1,0 +1,7 @@
+﻿.pager{ text-align:center; margin:10px;}
+.pager a{ border:1px solid #e8e8e8; padding:5px 10px 5px 10px;  color:#898989; cursor:pointer}
+.pager a:hover{ color:#0093dd; background:#f8f8f8}
+.pager a[disabled]{ color:#0093dd; background:#f8f8f8}
+.pager a.next { -ms-border-radius:0 3px 3px 0; border-radius:0 3px 3px 0;}
+.pager a.prev{ -ms-border-radius:0 3px 3px 0; border-radius:3px 0 0 3px; border-left:1px solid #e8e8e8}
+/*.pager span{ border:1px solid #e8e8e8; padding:5px 10px 5px 10px;  background:#f8f8f8}*/

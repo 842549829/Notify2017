@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="jquery-1.11.3.js"></script>
+    <style>
+        #menu li {
+            float: left;
+            position:relative;
+            line-height: 35px;
+        }
+
+            #menu li .sub {
+                width: 300px;
+                height: 300px;
+                background-color: #000;
+                position: absolute;
+                left: 0;
+                top: 0;
+                display: none;
+                margin-top: 50px;
+            }
+    </style>
+</head>
+<body>
+    <ul id="menu">
+        <li><a href="#">aaaa</a><div class="sub"></div></li>
+    </ul>
+</body>
+</html>
+
+
+<script>
+    var tm;
+    $("#menu li").hover(function () {
+        var a = $(this).find(".sub");
+        if (tm) {
+            clearTimeout(tm);
+        }
+        a.show();
+    }, function () {
+        var a = $(this).find(".sub");
+        tm = setTimeout(function () {  a.hide(); }, 1000);
+    });
+</script>

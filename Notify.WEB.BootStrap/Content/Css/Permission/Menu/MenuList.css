@@ -1,0 +1,46 @@
+﻿.ztree li span.button.add {
+    margin-left: 2px;
+    margin-right: -1px;
+    background-position: -144px 0;
+    vertical-align: top;
+    *vertical-align: middle;
+}
+
+div.content_wrap {
+    width: 100%;
+    height: auto;
+}
+
+ul.ztree {
+    /*margin-top: 10px;*/
+    /*border: 1px solid #95b8e7;*/
+    background: #FFFFFF;
+    width: auto;
+    height: 450px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.item {
+    float: left;
+}
+
+.form {
+    padding: 20px;
+}
+
+    .form tr td {
+        padding: 15px;
+    }
+
+    .form tr input {
+        width: 300px;
+        height: 23px;
+        border: 1px solid #95b8e7;
+    }
+
+    .form tr textarea {
+        width: 300px;
+        height: 40px;
+        border: 1px solid #95b8e7;
+    }

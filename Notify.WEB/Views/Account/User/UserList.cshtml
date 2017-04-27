@@ -1,0 +1,59 @@
+﻿
+<table id="listData" class="easyui-datagrid">
+    <thead>
+        <tr>
+            <th data-options="field:'Id',width:'220'">ID</th>
+            <th data-options="field:'AccountNo',width:'150'">帐号</th>
+            <th data-options="field:'AccountName',width:'150'">用户名</th>
+            <th data-options="field:'Mail',width:'150'">邮箱</th>
+            <th data-options="field:'Mobile',width:'150'">手机</th>
+            <th data-options="field:'CreateTime',width:'150',formatter:createTimeFormater">创建时间</th>
+            <th data-options="field:'IsAdmin',width:'100',formatter:isAdminFormater">是否是管理员</th>
+            <th data-options="field:'Status',width:'100',formatter:statusFormater">状态</th>
+            <th data-options="field:'id',width:260,formatter:operationFormater">操作</th>
+        </tr>
+    </thead>
+</table>
+
+<div id="searchtool" style="padding: 5px">
+    <span>帐号：</span><input type="text" id="AccountNo" value="" size="30" />
+    <span>用户名：</span><input type="text" id="AccountName" value="" size="30" />
+    <a href="javascript:findData();" class="easyui-linkbutton" data-options="iconCls:'icon-search'">查询</a>
+    &nbsp;&nbsp;
+    <a id="btnAddRole" href="javascript:openAddUser();" class="easyui-linkbutton" data-options="iconCls:'icon-add'">添加</a>
+</div>
+
+<!--添加-->
+<div id="addUser" class="easyui-window" data-options="closed:true" collapsible="false" minimizable="false" maximizable="false" style="width: 300px; height: 150px; padding: 5px;">
+    <div class="easyui-layout" fit="true">
+        <div region="center" border="false" style="padding: 10px; background: #fff; border: 1px solid #ccc;">
+            <table>
+                <tr>
+                    <td>帐号：</td>
+                    <td><input id="txtAccountNo" type="text" class="txt01" style="width:180px;" /></td>
+                </tr>
+                <tr>
+                    <td>用户名：</td>
+                    <td><input id="txtAccountName" type="text" class="txt01" style="width: 180px;"/></td>
+                </tr>
+                <tr>
+                    <td>邮箱：</td>
+                    <td><input id="txtMail" type="text" class="txt01" style="width: 180px;"/></td>
+                </tr>
+                <tr>
+                    <td>手机：</td>
+                    <td><input id="txtMobile" type="text" class="txt01" style="width: 180px;"/></td>
+                </tr>
+            </table>
+        </div>
+        <div region="south" border="false" style="text-align: right; height: 30px; line-height: 30px;">
+            <a id="btnEp" class="easyui-linkbutton" icon="icon-ok" href="javascript:saveAddUser()">确定</a>
+            <a id="btnCancel" class="easyui-linkbutton" icon="icon-cancel" href="javascript:closeAddUser()">取消</a>
+        </div>
+    </div>
+</div>
+
+@section Footer
+{
+    <script src="~/Content/Scripts/views/Account/User/UserList.js"></script>
+}

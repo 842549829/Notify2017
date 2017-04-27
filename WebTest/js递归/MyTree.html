@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>tree</title>
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link href="common.css" rel="stylesheet" />
+    <script src="jquery-1.11.3.min.js"></script>
+</head>
+<body>
+    <div id="tree" class="tree"></div>
+</body>
+</html>
+<script>
+    // 测试数据
+    var data = [
+        { Id: 0, Name: "中国", ParentId: -1 },
+        { Id: 1, Name: "安徽", ParentId: 0 },
+        { Id: 2, Name: "江苏", ParentId: 0 },
+        { Id: 3, Name: "合肥", ParentId: 1 },
+        { Id: 4, Name: "庐阳区", ParentId: 3 },
+        { Id: 5, Name: "大杨镇", ParentId: 4 },
+        { Id: 6, Name: "南京", ParentId: 2 },
+        { Id: 7, Name: "玄武区", ParentId: 6 },
+        { Id: 8, Name: "梅园新村街道", ParentId: 7 },
+        { Id: 9, Name: "上海", ParentId: 0 },
+        { Id: 10, Name: "黄浦区", ParentId: 9 },
+        { Id: 11, Name: "外滩", ParentId: 10 },
+        { Id: 12, Name: "安庆", ParentId: 1 }
+    ];
+
+    // 加载动画效果
+    function initAnimation() {
+        $(".tree li:has(ul)").addClass("parent_li").find(" > span").attr("title", "Collapse this branch");
+        $(".tree li.parent_li > span").on("click", function (e) {
+            var children = $(this).parent("li.parent_li").find(" > ul > li");
+            if (children.is(":visible")) {
+                children.hide("fast");
+                $(this).attr("title", "Expand this branch").find(" > i").addClass("glyphicon-plus-sign").removeClass("glyphicon-minus-sign");
+            } else {
+                children.show("fast");
+                $(this).attr("title", "Collapse this branch").find(" > i").addClass("glyphicon-minus-sign").removeClass("glyphicon-plus-sign");
+            }
+            e.stopPropagation();
+        });
+    }
+
+    // 递归出深度
+    function sonsTree(arr, id) {
+        var temp = [], lev = 0;
+        var forFn = function (arr, id, lev) {
+            for (var i = 0; i < arr.length; i++) {
+                var item = arr[i];
+                if (item.ParentId == id) {
+                    item.Lev = lev;
+                    temp.push(item);
+                    forFn(arr, item.Id, lev + 1);
+                }
+            }
+        };
+        forFn(arr, id, lev);
+        return temp;
+    }
+
+    // 递归树对象
+    function tree(data) {
+        this.tree = data || [];
+        this.groups = {};
+    };
+
+    // 递归树
+    tree.prototype = {
+        init: function (pid) {
+            this.group();
+            return this.getDom(this.groups[pid]);
+        },
+        group: function () {
+            for (var i = 0; i < this.tree.length; i++) {
+                if (this.groups[this.tree[i].ParentId]) {
+                    this.groups[this.tree[i].ParentId].push(this.tree[i]);
+                } else {
+                    this.groups[this.tree[i].ParentId] = [];
+                    this.groups[this.tree[i].ParentId].push(this.tree[i]);
+                }
+            }
+        },
+        getDom: function (arry) {
+            if (!arry) { return "" }
+            var html = "<ul>";
+            for (var i = 0; i < arry.length; i++) {
+                var item = arry[i];
+                html += '<li class="parent_li">';
+                html += '<span title="Collapse this branch"><i class="glyphicon glyphicon-folder-open"></i> &nbsp;' + item.Name + "</span>";
+                if (item.Lev === 0) {
+                    html += '&nbsp;<button type="button" class="btn btn-success btn-xs tianjia" onclick="add(' + item.ParentId+')">添加下级</button>';
+                } else {
+                    if (item.Lev < 4) {
+                        html += '&nbsp;<button type="button" class="btn btn-success btn-xs tianjia" onclick="add(' + item.ParentId + ')">添加下级</button>';
+                    }
+                    html += '&nbsp;<button type="button" class="btn btn-primary btn-xs tianjia" onclick="modify(' + item.Id + ')">修改</button>';
+                    html += '&nbsp;<button type="button" class="btn btn-danger btn-xs shanchu" onclick="remove(' + item.Id + ')">删除</button>';
+                }
+                html += this.getDom(this.groups[arry[i].Id]);
+                html += "</li>";
+            };
+            html += "</ul>";
+            return html;
+        }
+    };
+
+    // 添加
+    function add(panrentId) {
+        alert(panrentId);
+    }
+
+    // 修改
+    function modify(id) {
+        alert(id);
+    }
+
+    // 删除
+    function remove(id) {
+        alert(id);
+    }
+
+    // 初始化
+    window.onload = function () {
+        debugger;
+        var startId = -1;
+        var treeData = sonsTree(data, startId);
+        var html = new tree(treeData).init(startId);
+        document.getElementById("tree").innerHTML = html;
+        initAnimation();
+    }
+</script>

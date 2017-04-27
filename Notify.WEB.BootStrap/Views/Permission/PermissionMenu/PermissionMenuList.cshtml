@@ -1,0 +1,43 @@
+﻿@model Guid
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>菜单 <small>@ViewBag.RoleName</small></h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <ul id="tree" class="ztree"></ul>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <div class="col-sm-offset-3 col-sm-8">
+                                <input type="hidden" id="hidRoleId" value="@Model" />
+                                <a id="btnSave" href="javascript:void(0)" class="btn btn-w-m btn-info">保存数据</a>
+                                &nbsp;&nbsp;
+                                <a id="btnGoBack" href="@Url.Action("RoleList", "Role")" class="btn btn-w-m btn-white">立即返回</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+@section Footer
+{
+    <link href="~/Content/Scripts/tools/zTree_v3/css/zTreeStyle/zTreeStyle.css" rel="stylesheet" />
+    <script src="~/Content/Scripts/tools/zTree_v3/js/jquery.ztree.core-3.5.js"></script>
+    <script src="~/Content/Scripts/tools/zTree_v3/js/jquery.ztree.excheck-3.5.js"></script>
+    <script src="~/Content/Scripts/tools/zTree_v3/js/jquery.ztree.exedit-3.5.js"></script>
+    <link href="~/Content/Css/Permission/Menu/MenuList.css" rel="stylesheet" />
+    <script src="~/Content/Scripts/views/Permission/PermissionMenu/PermissionMenuList.js"></script>
+}

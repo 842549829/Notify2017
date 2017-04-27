@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>js代码ZeroClipboard组件复制剪切板兼容firefox,Chrome,IE</title>
+<meta name="description" content="js代码ZeroClipboard组件制作复制剪切板复制粘贴文字内容，一键即可复制粘贴文字内容。兼容各大主流浏览器firefox,,Chrome,IE等。" />
+</head>
+
+<body>
+
+<style type="text/css">
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+body{font:12px/180% Arial, Helvetica, sans-serif ,"新宋体";}
+.demo{width:680px;margin:40px auto 0 auto;}
+.demo td{padding:5px;}
+#copy-button{width:125px;height:45px;cursor:pointer;border:0;background:url(images/btn.gif) no-repeat;}
+</style>
+
+<div class="demo">
+	<table width="100%">
+		<tr>
+			<td>
+				<textarea id="copytext" name="codeiframe" rows="5" cols="60">jsfoot 网页特效比网站建设用户提供jquery 特效 js特效 flash特效 div+css教程 html5教程 提示框 弹出层 浮动层 手风琴 评分、进度条 日期时间 颜色选择器 滚动条美化等多种网页特效。http://www.jsfoot.com/</textarea>
+			</td>
+		</tr>
+		<tr>	
+			<td><input type="button" value="" id="copy-button" /></td>
+		</tr>
+	</table>
+</div>
+
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/ZeroClipboard.js"></script>
+<script type="text/javascript">
+var clip = null;
+ZeroClipboard.setMoviePath("swf/ZeroClipboard.swf");
+$(document).ready(function(){
+	clip = new ZeroClipboard.Client();  
+	clip.setHandCursor(true);  
+	clip.setText($("#copytext").val());  
+	clip.glue("copy-button");
+    var complete = "complete";
+    clip.addEventListener(complete, function () {
+		alert("代码已复制到剪贴板！");
+	});
+});
+</script>
+
+</body>
+</html>

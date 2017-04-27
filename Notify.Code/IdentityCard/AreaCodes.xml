@@ -1,0 +1,3879 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AreaCode>
+  <Province code="11" name="北京市">
+    <City code="0101" name="东城区"/>
+    <City code="0102" name="西城区"/>
+    <City code="0103" name="崇文区"/>
+    <City code="0104" name="宣武区"/>
+    <City code="0105" name="朝阳区"/>
+    <City code="0106" name="丰台区"/>
+    <City code="0107" name="石景山区"/>
+    <City code="0108" name="海淀区"/>
+    <City code="0109" name="门头沟区"/>
+    <City code="0110" name="房山区"/>
+    <City code="0111" name="东城区"/>
+    <City code="0112" name="通州区"/>
+    <City code="0113" name="顺义区"/>
+    <City code="0114" name="昌平区"/>
+    <City code="0115" name="大兴区"/>
+    <City code="0116" name="怀柔区"/>
+    <City code="0117" name="平谷区"/>
+    <City code="0228" name="密云县"/>
+    <City code="0229" name="延庆县"/>
+  </Province>
+  <Province code="12" name="天津市">
+    <City code="0101" name="和平区"/>
+    <City code="0102" name="河东区"/>
+    <City code="0103" name="河西区"/>
+    <City code="0104" name="南开区"/>
+    <City code="0105" name="河北区"/>
+    <City code="0106" name="红桥区"/>
+    <City code="0107" name="塘沽区"/>
+    <City code="0108" name="汉沽区"/>
+    <City code="0109" name="大港区"/>
+    <City code="0110" name="东丽区"/>
+    <City code="0111" name="西青区"/>
+    <City code="0112" name="津南区"/>
+    <City code="0113" name="北辰区"/>
+    <City code="0114" name="武清区"/>
+    <City code="0115" name="宝坻区"/>
+    <City code="0221" name="宁河县"/>
+    <City code="0223" name="静海县"/>
+    <City code="0228" name="蓟县"/>
+  </Province>
+  <Province code="13" name="河北省">
+    <City code="01" name="石家庄市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="长安区" />
+      <County code="03" name="桥东区" />
+      <County code="04" name="桥西区" />
+      <County code="05" name="新华区" />
+      <County code="07" name="井陉矿区" />
+      <County code="08" name="裕华区" />
+      <County code="21" name="井陉县" />
+      <County code="23" name="正定县" />
+      <County code="24" name="栾城县" />
+      <County code="25" name="行唐县" />
+      <County code="26" name="灵寿县" />
+      <County code="27" name="高邑县" />
+      <County code="28" name="深泽县" />
+      <County code="29" name="赞皇县" />
+      <County code="30" name="无极县" />
+      <County code="31" name="平山县" />
+      <County code="32" name="元氏县" />
+      <County code="33" name="赵县" />
+      <County code="81" name="辛集市" />
+      <County code="82" name="藁城市" />
+      <County code="83" name="晋州市" />
+      <County code="84" name="新乐市" />
+      <County code="85" name="鹿泉市" />
+    </City>
+    <City code="02" name="唐山市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="路南区" />
+      <County code="03" name="路北区" />
+      <County code="04" name="古冶区" />
+      <County code="05" name="开平区" />
+      <County code="07" name="丰南区" />
+      <County code="08" name="省丰润区" />
+      <County code="23" name="滦县" />
+      <County code="24" name="滦南县" />
+      <County code="25" name="乐亭县" />
+      <County code="27" name="迁西县" />
+      <County code="29" name="玉田县" />
+      <County code="30" name="唐海县" />
+      <County code="81" name="遵化市" />
+      <County code="83" name="迁安市" />
+    </City>
+    <City code="03" name="秦皇岛市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="海港区" />
+      <County code="03" name="山海关区" />
+      <County code="04" name="北戴河区" />
+      <County code="21" name="青龙满族自治县" />
+      <County code="22" name="昌黎县" />
+      <County code="23" name="抚宁县" />
+      <County code="24" name="卢龙县" />
+    </City>
+    <City code="04" name="邯郸市">
+      <County code="01" name="辖区" />
+      <County code="02" name="邯山区" />
+      <County code="03" name="丛台区" />
+      <County code="04" name="复兴区" />
+      <County code="06" name="峰峰矿区" />
+      <County code="21" name="邯郸县" />
+      <County code="23" name="临漳县" />
+      <County code="24" name="成安县" />
+      <County code="25" name="大名县" />
+      <County code="26" name="涉县" />
+      <County code="27" name="磁县" />
+      <County code="28" name="肥乡县" />
+      <County code="29" name="永年县" />
+      <County code="30" name="邱县" />
+      <County code="31" name="鸡泽县" />
+      <County code="32" name="广平县" />
+      <County code="33" name="馆陶县" />
+      <County code="34" name="魏县" />
+      <County code="35" name="曲周县" />
+      <County code="81" name="武安市" />
+    </City>
+    <City code="05" name="邢台市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="桥东区" />
+      <County code="03" name="桥西区" />
+      <County code="21" name="邢台县" />
+      <County code="22" name="临城县" />
+      <County code="23" name="内丘县" />
+      <County code="24" name="柏乡县" />
+      <County code="25" name="隆尧县" />
+      <County code="26" name="任县" />
+      <County code="27" name="南和县" />
+      <County code="28" name="宁晋县" />
+      <County code="29" name="巨鹿县" />
+      <County code="30" name="新河县" />
+      <County code="31" name="广宗县" />
+      <County code="32" name="平乡县" />
+      <County code="33" name="威县" />
+      <County code="34" name="清河县" />
+      <County code="35" name="临西县" />
+      <County code="81" name="南宫市" />
+      <County code="82" name="沙河市" />
+    </City>
+    <City code="06" name="保定市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="新市区" />
+      <County code="03" name="北市区" />
+      <County code="04" name="南市区" />
+      <County code="21" name="满城县" />
+      <County code="22" name="清苑县" />
+      <County code="23" name="涞水县" />
+      <County code="24" name="阜平县" />
+      <County code="25" name="徐水县" />
+      <County code="26" name="定兴县" />
+      <County code="27" name="唐县" />
+      <County code="28" name="高阳县" />
+      <County code="29" name="容城县" />
+      <County code="30" name="涞源县" />
+      <County code="31" name="望都县" />
+      <County code="32" name="安新县" />
+      <County code="33" name="易县" />
+      <County code="34" name="曲阳县" />
+      <County code="35" name="蠡县" />
+      <County code="36" name="顺平县" />
+      <County code="37" name="博野县" />
+      <County code="38" name="雄县" />
+      <County code="81" name="涿州市" />
+      <County code="82" name="定州市" />
+      <County code="83" name="安国市" />
+      <County code="84" name="高碑店市" />
+    </City>
+    <City code="07" name="张家口市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="桥东区" />
+      <County code="03" name="桥西区" />
+      <County code="05" name="宣化区" />
+      <County code="06" name="下花园区" />
+      <County code="21" name="宣化县" />
+      <County code="22" name="张北县" />
+      <County code="23" name="康保县" />
+      <County code="24" name="沽源县" />
+      <County code="25" name="尚义县" />
+      <County code="26" name="蔚县" />
+      <County code="27" name="阳原县" />
+      <County code="28" name="怀安县" />
+      <County code="29" name="万全县" />
+      <County code="30" name="怀来县" />
+      <County code="31" name="涿鹿县" />
+      <County code="32" name="赤城县" />
+      <County code="33" name="崇礼县" />
+    </City>
+    <City code="08" name="承德市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="双桥区" />
+      <County code="03" name="双滦区" />
+      <County code="04" name="鹰手营子矿区" />
+      <County code="21" name="承德县" />
+      <County code="22" name="兴隆县" />
+      <County code="23" name="平泉县" />
+      <County code="24" name="滦平县" />
+      <County code="25" name="隆化县" />
+      <County code="26" name="丰宁满族自治县" />
+      <County code="27" name="宽城满族自治县" />
+      <County code="28" name="围场满族蒙古族自治县" />
+    </City>
+    <City code="09" name="沧州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="新华区" />
+      <County code="03" name="运河区" />
+      <County code="21" name="沧县" />
+      <County code="22" name="青县" />
+      <County code="23" name="东光县" />
+      <County code="24" name="海兴县" />
+      <County code="25" name="盐山县" />
+      <County code="26" name="肃宁县" />
+      <County code="27" name="南皮县" />
+      <County code="28" name="吴桥县" />
+      <County code="29" name="献县" />
+      <County code="30" name="孟村回族自治县" />
+      <County code="81" name="泊头市" />
+      <County code="82" name="任丘市" />
+      <County code="83" name="黄骅市" />
+      <County code="84" name="河间市" />
+    </City>
+    <City code="10" name="廊坊市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="安次区" />
+      <County code="03" name="广阳区" />
+      <County code="22" name="固安县" />
+      <County code="23" name="永清县" />
+      <County code="24" name="香河县" />
+      <County code="25" name="大城县" />
+      <County code="26" name="文安县" />
+      <County code="28" name="大厂回族自治县" />
+      <County code="81" name="霸州市" />
+      <County code="82" name="三河市" />
+    </City>
+    <City code="11" name="衡水市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="桃城区" />
+      <County code="21" name="枣强县" />
+      <County code="22" name="武邑县" />
+      <County code="23" name="武强县" />
+      <County code="24" name="饶阳县" />
+      <County code="25" name="安平县" />
+      <County code="26" name="故城县" />
+      <County code="27" name="景县" />
+      <County code="28" name="阜城县" />
+      <County code="81" name="冀州市" />
+      <County code="82" name="深州市" />
+    </City>
+  </Province>
+  <Province code="14" name="山西省">
+    <City code="01" name="太原市">
+      <County code="01" name="市辖区" />
+      <County code="05" name="小店区" />
+      <County code="06" name="迎泽区" />
+      <County code="07" name="杏花岭区" />
+      <County code="08" name="尖草坪区" />
+      <County code="09" name="万柏林区" />
+      <County code="10" name="晋源区" />
+      <County code="21" name="清徐县" />
+      <County code="22" name="阳曲县" />
+      <County code="23" name="娄烦县" />
+      <County code="81" name="古交市" />
+    </City>
+    <City code="02" name="大同市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="城区" />
+      <County code="03" name="矿区" />
+      <County code="11" name="南郊区" />
+      <County code="12" name="新荣区" />
+      <County code="21" name="阳高县" />
+      <County code="22" name="天镇县" />
+      <County code="23" name="广灵县" />
+      <County code="24" name="灵丘县" />
+      <County code="25" name="浑源县" />
+      <County code="26" name="左云县" />
+      <County code="27" name="大同县" />
+    </City>
+    <City code="03" name="阳泉市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="城区" />
+      <County code="03" name="矿区" />
+      <County code="11" name="郊区" />
+      <County code="21" name="平定县" />
+      <County code="22" name="盂县" />
+    </City>
+    <City code="04" name="长治市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="城区" />
+      <County code="11" name="郊区" />
+      <County code="21" name="长治县" />
+      <County code="23" name="襄垣县" />
+      <County code="24" name="屯留县" />
+      <County code="25" name="平顺县" />
+      <County code="26" name="黎城县" />
+      <County code="27" name="壶关县" />
+      <County code="28" name="长子县" />
+      <County code="29" name="武乡县" />
+      <County code="30" name="沁县" />
+      <County code="31" name="沁源县" />
+      <County code="81" name="潞城市" />
+    </City>
+    <City code="05" name="晋城市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="城区" />
+      <County code="21" name="沁水县" />
+      <County code="22" name="阳城县" />
+      <County code="24" name="陵川县" />
+      <County code="25" name="泽州县" />
+      <County code="81" name="高平市" />
+    </City>
+    <City code="06" name="朔州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="朔城区" />
+      <County code="03" name="平鲁区" />
+      <County code="21" name="山阴县" />
+      <County code="22" name="应县" />
+      <County code="23" name="右玉县" />
+      <County code="24" name="怀仁县" />
+    </City>
+    <City code="07" name="晋中市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="榆次区" />
+      <County code="21" name="榆社县" />
+      <County code="22" name="左权县" />
+      <County code="23" name="和顺县" />
+      <County code="24" name="昔阳县" />
+      <County code="25" name="寿阳县" />
+      <County code="26" name="太谷县" />
+      <County code="27" name="祁县" />
+      <County code="28" name="平遥县" />
+      <County code="29" name="灵石县" />
+      <County code="81" name="介休市" />
+    </City>
+    <City code="08" name="运城市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="盐湖区" />
+      <County code="21" name="临猗县" />
+      <County code="22" name="万荣县" />
+      <County code="23" name="闻喜县" />
+      <County code="24" name="稷山县" />
+      <County code="25" name="新绛县" />
+      <County code="26" name="绛县" />
+      <County code="27" name="垣曲县" />
+      <County code="28" name="夏县" />
+      <County code="29" name="平陆县" />
+      <County code="30" name="芮城县" />
+      <County code="81" name="永济市" />
+      <County code="82" name="河津市" />
+    </City>
+    <City code="09" name="忻州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="忻府区" />
+      <County code="21" name="定襄县" />
+      <County code="22" name="五台县" />
+      <County code="23" name="代县" />
+      <County code="24" name="繁峙县" />
+      <County code="25" name="宁武县" />
+      <County code="26" name="静乐县" />
+      <County code="27" name="神池县" />
+      <County code="28" name="五寨县" />
+      <County code="29" name="岢岚县" />
+      <County code="30" name="河曲县" />
+      <County code="31" name="保德县" />
+      <County code="32" name="偏关县" />
+      <County code="81" name="原平市" />
+    </City>
+    <City code="10" name="临汾市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="尧都区" />
+      <County code="21" name="曲沃县" />
+      <County code="22" name="翼城县" />
+      <County code="23" name="襄汾县" />
+      <County code="24" name="洪洞县" />
+      <County code="25" name="古县" />
+      <County code="26" name="安泽县" />
+      <County code="27" name="浮山县" />
+      <County code="28" name="吉县" />
+      <County code="29" name="乡宁县" />
+      <County code="30" name="大宁县" />
+      <County code="31" name="隰县" />
+      <County code="32" name="永和县" />
+      <County code="33" name="蒲县" />
+      <County code="34" name="汾西县" />
+      <County code="81" name="侯马市" />
+      <County code="82" name="霍州市" />
+    </City>
+    <City code="11" name="吕梁市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="离石区" />
+      <County code="21" name="文水县" />
+      <County code="22" name="交城县" />
+      <County code="23" name="兴县" />
+      <County code="24" name="临县" />
+      <County code="25" name="柳林县" />
+      <County code="26" name="石楼县" />
+      <County code="27" name="岚县" />
+      <County code="28" name="方山县" />
+      <County code="29" name="中阳县" />
+      <County code="30" name="交口县" />
+      <County code="81" name="孝义市" />
+      <County code="82" name="汾阳市" />
+    </City>
+  </Province>
+  <Province code="15" name="内蒙古自治区">
+    <City code="01" name="呼和浩特市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="新城区" />
+      <County code="03" name="回民区" />
+      <County code="04" name="玉泉区" />
+      <County code="05" name="赛罕区" />
+      <County code="21" name="土默特左旗" />
+      <County code="22" name="托克托县" />
+      <County code="23" name="和林格尔县" />
+      <County code="24" name="清水河县" />
+      <County code="25" name="武川县" />
+    </City>
+    <City code="02" name="包头市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="东河区" />
+      <County code="03" name="昆都仑区" />
+      <County code="04" name="青山区" />
+      <County code="05" name="石拐区" />
+      <County code="06" name="白云矿区" />
+      <County code="07" name="九原区" />
+      <County code="21" name="土默特右旗" />
+      <County code="22" name="固阳县" />
+      <County code="23" name="达尔罕茂明安联合旗" />
+    </City>
+    <City code="03" name="乌海市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="海勃湾区" />
+      <County code="03" name="海南区" />
+      <County code="04" name="乌达区" />
+    </City>
+    <City code="04" name="赤峰市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="红山区" />
+      <County code="03" name="元宝山区" />
+      <County code="04" name="松山区" />
+      <County code="21" name="阿鲁科尔沁旗" />
+      <County code="22" name="巴林左旗" />
+      <County code="23" name="巴林右旗" />
+      <County code="24" name="林西县" />
+      <County code="25" name="克什克腾旗" />
+      <County code="26" name="翁牛特旗" />
+      <County code="28" name="喀喇沁旗" />
+      <County code="29" name="宁城县" />
+      <County code="30" name="敖汉旗" />
+    </City>
+    <City code="05" name="通辽市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="科尔沁区" />
+      <County code="21" name="科尔沁左翼中旗" />
+      <County code="22" name="科尔沁左翼后旗" />
+      <County code="23" name="开鲁县" />
+      <County code="24" name="库伦旗" />
+      <County code="25" name="奈曼旗" />
+      <County code="26" name="扎鲁特旗" />
+      <County code="81" name="霍林郭勒市" />
+    </City>
+    <City code="06" name="鄂尔多斯市">
+      <County code="02" name="东胜区" />
+      <County code="21" name="达拉特旗" />
+      <County code="22" name="准格尔旗" />
+      <County code="23" name="鄂托克前旗" />
+      <County code="24" name="鄂托克旗" />
+      <County code="25" name="杭锦旗" />
+      <County code="26" name="乌审旗" />
+      <County code="27" name="伊金霍洛旗" />
+    </City>
+    <City code="07" name="呼伦贝尔市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="海拉尔区" />
+      <County code="21" name="阿荣旗" />
+      <County code="22" name="莫力达瓦达斡尔族自治旗" />
+      <County code="23" name="鄂伦春自治旗" />
+      <County code="24" name="鄂温克族自治旗" />
+      <County code="25" name="陈巴尔虎旗" />
+      <County code="26" name="新巴尔虎左旗" />
+      <County code="27" name="新巴尔虎右旗" />
+      <County code="81" name="满洲里市" />
+      <County code="82" name="牙克石市" />
+      <County code="83" name="扎兰屯市" />
+      <County code="84" name="额尔古纳市" />
+      <County code="85" name="根河市" />
+    </City>
+    <City code="08" name="巴彦淖尔市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="临河区" />
+      <County code="21" name="五原县" />
+      <County code="22" name="磴口县" />
+      <County code="23" name="乌拉特前旗" />
+      <County code="24" name="乌拉特中旗" />
+      <County code="25" name="乌拉特后旗" />
+      <County code="26" name="杭锦后旗" />
+    </City>
+    <City code="09" name="乌兰察布市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="集宁区" />
+      <County code="21" name="卓资县" />
+      <County code="22" name="化德县" />
+      <County code="23" name="商都县" />
+      <County code="24" name="兴和县" />
+      <County code="25" name="凉城县" />
+      <County code="26" name="察哈尔右翼前旗" />
+      <County code="27" name="察哈尔右翼中旗" />
+      <County code="28" name="察哈尔右翼后旗" />
+      <County code="29" name="四子王旗" />
+      <County code="81" name="丰镇市" />
+    </City>
+    <City code="22" name="兴安盟">
+      <County code="01" name="乌兰浩特市" />
+      <County code="02" name="阿尔山市" />
+      <County code="21" name="科尔沁右翼前旗" />
+      <County code="22" name="科尔沁右翼中旗" />
+      <County code="23" name="扎赉特旗" />
+      <County code="24" name="突泉县" />
+    </City>
+    <City code="25" name="锡林郭勒盟">
+      <County code="01" name="二连浩特市" />
+      <County code="02" name="锡林浩特市" />
+      <County code="22" name="阿巴嘎旗" />
+      <County code="23" name="苏尼特左旗" />
+      <County code="24" name="苏尼特右旗" />
+      <County code="25" name="东乌珠穆沁旗" />
+      <County code="26" name="西乌珠穆沁旗" />
+      <County code="27" name="太仆寺旗" />
+      <County code="28" name="镶黄旗" />
+      <County code="29" name="正镶白旗" />
+      <County code="30" name="正蓝旗" />
+      <County code="31" name="多伦县" />
+    </City>
+    <City code="29" name="阿拉善盟">
+      <County code="21" name="阿拉善左旗" />
+      <County code="22" name="阿拉善右旗" />
+      <County code="23" name="额济纳旗" />
+    </City>
+  </Province>
+  <Province code="21" name="辽宁省">
+    <City code="01" name="沈阳市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="和平区" />
+      <County code="03" name="沈河区" />
+      <County code="04" name="大东区" />
+      <County code="05" name="皇姑区" />
+      <County code="06" name="铁西区" />
+      <County code="11" name="苏家屯区" />
+      <County code="12" name="东陵区" />
+      <County code="13" name="新城子区" />
+      <County code="14" name="于洪区" />
+      <County code="22" name="辽中县" />
+      <County code="23" name="康平县" />
+      <County code="24" name="法库县" />
+      <County code="81" name="新民市" />
+    </City>
+    <City code="02" name="大连市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="中山区" />
+      <County code="03" name="西岗区" />
+      <County code="04" name="沙河口区" />
+      <County code="11" name="甘井子区" />
+      <County code="12" name="旅顺口区" />
+      <County code="13" name="金州区" />
+      <County code="24" name="长海县" />
+      <County code="81" name="瓦房店市" />
+      <County code="82" name="普兰店市" />
+      <County code="83" name="庄河市" />
+    </City>
+    <City code="03" name="鞍山市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="铁东区" />
+      <County code="03" name="铁西区" />
+      <County code="04" name="立山区" />
+      <County code="11" name="千山区" />
+      <County code="21" name="台安县" />
+      <County code="23" name="岫岩满族自治县" />
+      <County code="81" name="海城市" />
+    </City>
+    <City code="04" name="抚顺市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="新抚区" />
+      <County code="03" name="东洲区" />
+      <County code="04" name="望花区" />
+      <County code="11" name="顺城区" />
+      <County code="21" name="抚顺县" />
+      <County code="22" name="新宾满族自治县" />
+      <County code="23" name="清原满族自治县" />
+    </City>
+    <City code="05" name="本溪市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="平山区" />
+      <County code="03" name="溪湖区" />
+      <County code="04" name="明山区" />
+      <County code="05" name="南芬区" />
+      <County code="21" name="本溪满族自治县" />
+      <County code="22" name="桓仁满族自治县" />
+    </City>
+    <City code="06" name="丹东市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="元宝区" />
+      <County code="03" name="振兴区" />
+      <County code="04" name="振安区" />
+      <County code="24" name="宽甸满族自治县" />
+      <County code="81" name="东港市" />
+      <County code="82" name="凤城市" />
+    </City>
+    <City code="07" name="锦州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="古塔区" />
+      <County code="03" name="凌河区" />
+      <County code="11" name="太和区" />
+      <County code="26" name="黑山县" />
+      <County code="27" name="义县" />
+      <County code="81" name="凌海市" />
+      <County code="82" name="北宁市" />
+    </City>
+    <City code="08" name="营口市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="站前区" />
+      <County code="03" name="西市区" />
+      <County code="04" name="鲅鱼圈区" />
+      <County code="11" name="老边区" />
+      <County code="81" name="盖州市" />
+      <County code="82" name="大石桥市" />
+    </City>
+    <City code="09" name="阜新市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="海州区" />
+      <County code="03" name="新邱区" />
+      <County code="04" name="太平区" />
+      <County code="05" name="清河门区" />
+      <County code="11" name="细河区" />
+      <County code="21" name="阜新蒙古族自治县" />
+      <County code="22" name="彰武县" />
+    </City>
+    <City code="10" name="辽阳市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="白塔区" />
+      <County code="03" name="文圣区" />
+      <County code="04" name="宏伟区" />
+      <County code="05" name="弓长岭区" />
+      <County code="11" name="太子河区" />
+      <County code="21" name="辽阳县" />
+      <County code="81" name="灯塔市" />
+    </City>
+    <City code="11" name="盘锦市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="双台子区" />
+      <County code="03" name="兴隆台区" />
+      <County code="21" name="大洼县" />
+      <County code="22" name="盘山县" />
+    </City>
+    <City code="12" name="铁岭市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="银州区" />
+      <County code="04" name="清河区" />
+      <County code="21" name="铁岭县" />
+      <County code="23" name="西丰县" />
+      <County code="24" name="昌图县" />
+      <County code="81" name="调兵山市" />
+      <County code="82" name="开原市" />
+    </City>
+    <City code="13" name="朝阳市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="双塔区" />
+      <County code="03" name="龙城区" />
+      <County code="21" name="朝阳县" />
+      <County code="22" name="建平县" />
+      <County code="24" name="喀喇沁左翼蒙古族自治县" />
+      <County code="81" name="北票市" />
+      <County code="82" name="凌源市" />
+    </City>
+    <City code="14" name="葫芦岛市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="连山区" />
+      <County code="03" name="龙港区" />
+      <County code="04" name="南票区" />
+      <County code="21" name="绥中县" />
+      <County code="22" name="建昌县" />
+      <County code="81" name="兴城市" />
+    </City>
+  </Province>
+  <Province code="22" name="吉林省">
+    <City code="01" name="长春市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="南关区" />
+      <County code="03" name="宽城区" />
+      <County code="04" name="朝阳区" />
+      <County code="05" name="二道区" />
+      <County code="06" name="绿园区" />
+      <County code="12" name="双阳区" />
+      <County code="22" name="农安县" />
+      <County code="81" name="九台市" />
+      <County code="82" name="榆树市" />
+      <County code="83" name="德惠市" />
+    </City>
+    <City code="02" name="吉林市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="昌邑区" />
+      <County code="03" name="龙潭区" />
+      <County code="04" name="船营区" />
+      <County code="11" name="丰满区" />
+      <County code="21" name="永吉县" />
+      <County code="81" name="蛟河市" />
+      <County code="82" name="桦甸市" />
+      <County code="83" name="舒兰市" />
+      <County code="84" name="磐石市" />
+    </City>
+    <City code="03" name="四平市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="铁西区" />
+      <County code="03" name="铁东区" />
+      <County code="22" name="梨树县" />
+      <County code="23" name="伊通满族自治县" />
+      <County code="81" name="公主岭市" />
+      <County code="82" name="双辽市" />
+    </City>
+    <City code="04" name="辽源市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="龙山区" />
+      <County code="03" name="西安区" />
+      <County code="21" name="东丰县" />
+      <County code="22" name="东辽县" />
+    </City>
+    <City code="05" name="通化市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="东昌区" />
+      <County code="03" name="二道江区" />
+      <County code="21" name="通化县" />
+      <County code="23" name="辉南县" />
+      <County code="24" name="柳河县" />
+      <County code="81" name="梅河口市" />
+      <County code="82" name="集安市" />
+    </City>
+    <City code="06" name="白山市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="八道江区" />
+      <County code="21" name="抚松县" />
+      <County code="22" name="靖宇县" />
+      <County code="23" name="长白朝鲜族自治县" />
+      <County code="25" name="江源县" />
+      <County code="81" name="临江市" />
+    </City>
+    <City code="07" name="松原市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="宁江区" />
+      <County code="21" name="前郭尔罗斯蒙古族自治县" />
+      <County code="22" name="长岭县" />
+      <County code="23" name="乾安县" />
+      <County code="24" name="扶余县" />
+    </City>
+    <City code="08" name="白城市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="洮北区" />
+      <County code="21" name="镇赉县" />
+      <County code="22" name="通榆县" />
+      <County code="81" name="洮南市" />
+      <County code="82" name="大安市" />
+    </City>
+    <City code="24" name="延边朝鲜族自治州">
+      <County code="01" name="延吉市" />
+      <County code="02" name="图们市" />
+      <County code="03" name="敦化市" />
+      <County code="04" name="珲春市" />
+      <County code="05" name="龙井市" />
+      <County code="06" name="和龙市" />
+      <County code="24" name="汪清县" />
+      <County code="26" name="安图县" />
+    </City>
+  </Province>
+  <Province code="23" name="黑龙江省">
+    <City code="01" name="哈尔滨市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="道里区" />
+      <County code="03" name="南岗区" />
+      <County code="04" name="道外区" />
+      <County code="06" name="香坊区" />
+      <County code="07" name="动力区" />
+      <County code="08" name="平房区" />
+      <County code="09" name="松北区" />
+      <County code="11" name="呼兰区" />
+      <County code="23" name="依兰县" />
+      <County code="24" name="方正县" />
+      <County code="25" name="宾县" />
+      <County code="26" name="巴彦县" />
+      <County code="27" name="木兰县" />
+      <County code="28" name="通河县" />
+      <County code="29" name="延寿县" />
+      <County code="81" name="阿城市" />
+      <County code="82" name="双城市" />
+      <County code="83" name="尚志市" />
+      <County code="84" name="五常市" />
+    </City>
+    <City code="02" name="齐齐哈尔市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="龙沙区" />
+      <County code="03" name="建华区" />
+      <County code="04" name="铁锋区" />
+      <County code="05" name="昂昂溪区" />
+      <County code="06" name="富拉尔基区" />
+      <County code="07" name="碾子山区" />
+      <County code="08" name="梅里斯达斡尔" />
+      <County code="21" name="龙江县" />
+      <County code="23" name="依安县" />
+      <County code="24" name="泰来县" />
+      <County code="25" name="甘南县" />
+      <County code="27" name="富裕县" />
+      <County code="29" name="克山县" />
+      <County code="30" name="克东县" />
+      <County code="31" name="拜泉县" />
+      <County code="81" name="讷河市" />
+    </City>
+    <City code="03" name="鸡西市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="鸡冠区" />
+      <County code="03" name="恒山区" />
+      <County code="04" name="滴道区" />
+      <County code="05" name="梨树区" />
+      <County code="06" name="城子河区" />
+      <County code="07" name="麻山区" />
+      <County code="21" name="鸡东县" />
+      <County code="81" name="虎林市" />
+      <County code="82" name="密山市" />
+    </City>
+    <City code="04" name="鹤岗市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="向阳区" />
+      <County code="03" name="工农区" />
+      <County code="04" name="南山区" />
+      <County code="05" name="兴安区" />
+      <County code="06" name="东山区" />
+      <County code="07" name="兴山区" />
+      <County code="21" name="萝北县" />
+      <County code="22" name="绥滨县" />
+    </City>
+    <City code="05" name="双鸭山市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="尖山区" />
+      <County code="03" name="岭东区" />
+      <County code="05" name="四方台区" />
+      <County code="06" name="宝山区" />
+      <County code="21" name="集贤县" />
+      <County code="22" name="友谊县" />
+      <County code="23" name="宝清县" />
+      <County code="24" name="饶河县" />
+    </City>
+    <City code="06" name="大庆市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="萨尔图区" />
+      <County code="03" name="龙凤区" />
+      <County code="04" name="让胡路区" />
+      <County code="05" name="红岗区" />
+      <County code="06" name="大同区" />
+      <County code="21" name="肇州县" />
+      <County code="22" name="肇源县" />
+      <County code="23" name="林甸县" />
+      <County code="24" name="杜尔伯特蒙古族自治县" />
+    </City>
+    <City code="07" name="伊春市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="伊春区" />
+      <County code="03" name="南岔区" />
+      <County code="04" name="友好区" />
+      <County code="05" name="西林区" />
+      <County code="06" name="翠峦区" />
+      <County code="07" name="新青区" />
+      <County code="08" name="美溪区" />
+      <County code="09" name="金山屯区" />
+      <County code="10" name="五营区" />
+      <County code="11" name="乌马河区" />
+      <County code="12" name="汤旺河区" />
+      <County code="13" name="带岭区" />
+      <County code="14" name="乌伊岭区" />
+      <County code="15" name="红星区" />
+      <County code="16" name="上甘岭区" />
+      <County code="22" name="嘉荫县" />
+      <County code="81" name="铁力市" />
+    </City>
+    <City code="08" name="佳木斯市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="永红区" />
+      <County code="03" name="向阳区" />
+      <County code="04" name="前进区" />
+      <County code="05" name="东风区" />
+      <County code="11" name="郊区" />
+      <County code="22" name="桦南县" />
+      <County code="26" name="桦川县" />
+      <County code="28" name="汤原县" />
+      <County code="33" name="抚远县" />
+      <County code="81" name="同江市" />
+      <County code="82" name="富锦市" />
+    </City>
+    <City code="09" name="七台河市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="新兴区" />
+      <County code="03" name="桃山区" />
+      <County code="04" name="茄子河区" />
+      <County code="21" name="勃利县" />
+    </City>
+    <City code="10" name="牡丹江市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="东安区" />
+      <County code="03" name="阳明区" />
+      <County code="04" name="爱民区" />
+      <County code="05" name="西安区" />
+      <County code="24" name="东宁县" />
+      <County code="25" name="林口县" />
+      <County code="81" name="绥芬河市" />
+      <County code="83" name="海林市" />
+      <County code="84" name="宁安市" />
+      <County code="85" name="穆棱市" />
+    </City>
+    <City code="11" name="黑河市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="爱辉区" />
+      <County code="21" name="嫩江县" />
+      <County code="23" name="逊克县" />
+      <County code="24" name="孙吴县" />
+      <County code="81" name="北安市" />
+      <County code="82" name="五大连池市" />
+    </City>
+    <City code="12" name="绥化市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="北林区" />
+      <County code="21" name="望奎县" />
+      <County code="22" name="兰西县" />
+      <County code="23" name="青冈县" />
+      <County code="24" name="庆安县" />
+      <County code="25" name="明水县" />
+      <County code="26" name="绥棱县" />
+      <County code="81" name="安达市" />
+      <County code="82" name="肇东市" />
+      <County code="83" name="海伦市" />
+    </City>
+    <City code="27" name="大兴安岭地区">
+      <County code="21" name="呼玛县" />
+      <County code="22" name="塔河县" />
+      <County code="23" name="漠河县" />
+    </City>
+  </Province>
+  <Province code="31" name="上海市">
+    <City code="0101" name="黄浦区" />
+    <City code="0103" name="卢湾区" />
+    <City code="0104" name="徐汇区" />
+    <City code="0105" name="长宁区" />
+    <City code="0106" name="静安区" />
+    <City code="0107" name="普陀区" />
+    <City code="0108" name="闸北区" />
+    <City code="0109" name="虹口区" />
+    <City code="0110" name="杨浦区" />
+    <City code="0112" name="闵行区" />
+    <City code="0113" name="宝山区" />
+    <City code="0114" name="嘉定区" />
+    <City code="0115" name="浦东新区" />
+    <City code="0116" name="金山区" />
+    <City code="0117" name="松江区" />
+    <City code="0118" name="青浦区" />
+    <City code="0119" name="南汇区" />
+    <City code="0120" name="奉贤区" />
+    <City code="0230" name="崇明县" />
+  </Province>
+  <Province code="32" name="江苏省">
+    <City code="01" name="南京市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="玄武区" />
+      <County code="03" name="白下区" />
+      <County code="04" name="秦淮区" />
+      <County code="05" name="建邺区" />
+      <County code="06" name="鼓楼区" />
+      <County code="07" name="下关区" />
+      <County code="11" name="浦口区" />
+      <County code="13" name="栖霞区" />
+      <County code="14" name="雨花台区" />
+      <County code="15" name="江宁区" />
+      <County code="16" name="六合区" />
+      <County code="24" name="溧水县" />
+      <County code="25" name="高淳县" />
+    </City>
+    <City code="02" name="无锡市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="崇安区" />
+      <County code="03" name="南长区" />
+      <County code="04" name="北塘区" />
+      <County code="05" name="锡山区" />
+      <County code="06" name="惠山区" />
+      <County code="11" name="滨湖区" />
+      <County code="81" name="江阴市" />
+      <County code="82" name="宜兴市" />
+    </City>
+    <City code="03" name="徐州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="鼓楼区" />
+      <County code="03" name="云龙区" />
+      <County code="04" name="九里区" />
+      <County code="05" name="贾汪区" />
+      <County code="11" name="泉山区" />
+      <County code="21" name="丰县" />
+      <County code="22" name="沛县" />
+      <County code="23" name="铜山县" />
+      <County code="24" name="睢宁县" />
+      <County code="81" name="新沂市" />
+      <County code="82" name="邳州市" />
+    </City>
+    <City code="04" name="常州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="天宁区" />
+      <County code="04" name="钟楼区" />
+      <County code="05" name="戚墅堰区" />
+      <County code="11" name="新北区" />
+      <County code="12" name="武进区" />
+      <County code="81" name="溧阳市" />
+      <County code="82" name="金坛市" />
+    </City>
+    <City code="05" name="苏州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="沧浪区" />
+      <County code="03" name="平江区" />
+      <County code="04" name="金阊区" />
+      <County code="05" name="虎丘区" />
+      <County code="06" name="吴中区" />
+      <County code="07" name="相城区" />
+      <County code="81" name="常熟市" />
+      <County code="82" name="张家港市" />
+      <County code="83" name="昆山市" />
+      <County code="84" name="吴江市" />
+      <County code="85" name="太仓市" />
+    </City>
+    <City code="06" name="南通市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="崇川区" />
+      <County code="11" name="港闸区" />
+      <County code="21" name="海安县" />
+      <County code="23" name="如东县" />
+      <County code="81" name="启东市" />
+      <County code="82" name="如皋市" />
+      <County code="83" name="通州市" />
+      <County code="84" name="海门市" />
+    </City>
+    <City code="07" name="连云港市">
+      <County code="01" name="市辖区" />
+      <County code="03" name="连云区" />
+      <County code="05" name="新浦区" />
+      <County code="06" name="海州区" />
+      <County code="21" name="赣榆县" />
+      <County code="22" name="东海县" />
+      <County code="23" name="灌云县" />
+      <County code="24" name="灌南县" />
+    </City>
+    <City code="08" name="淮安市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="清河区" />
+      <County code="03" name="楚州区" />
+      <County code="04" name="淮阴区" />
+      <County code="11" name="清浦区" />
+      <County code="26" name="涟水县" />
+      <County code="29" name="洪泽县" />
+      <County code="30" name="盱眙县" />
+      <County code="31" name="金湖县" />
+    </City>
+    <City code="09" name="盐城市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="亭湖区" />
+      <County code="03" name="盐都区" />
+      <County code="21" name="响水县" />
+      <County code="22" name="滨海县" />
+      <County code="23" name="阜宁县" />
+      <County code="24" name="射阳县" />
+      <County code="25" name="建湖县" />
+      <County code="81" name="东台市" />
+      <County code="82" name="大丰市" />
+    </City>
+    <City code="10" name="扬州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="广陵区" />
+      <County code="03" name="邗江区" />
+      <County code="11" name="郊区" />
+      <County code="23" name="宝应县" />
+      <County code="81" name="仪征市" />
+      <County code="84" name="高邮市" />
+      <County code="88" name="江都市" />
+    </City>
+    <City code="11" name="镇江市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="京口区" />
+      <County code="11" name="润州区" />
+      <County code="12" name="丹徒区" />
+      <County code="81" name="丹阳市" />
+      <County code="82" name="扬中市" />
+      <County code="83" name="句容市" />
+    </City>
+    <City code="12" name="泰州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="海陵区" />
+      <County code="03" name="高港区" />
+      <County code="81" name="兴化市" />
+      <County code="82" name="靖江市" />
+      <County code="83" name="泰兴市" />
+      <County code="84" name="姜堰市" />
+    </City>
+    <City code="13" name="宿迁市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="宿城区" />
+      <County code="11" name="宿豫区" />
+      <County code="22" name="沭阳县" />
+      <County code="23" name="泗阳县" />
+      <County code="24" name="泗洪县" />
+    </City>
+  </Province>
+  <Province code="33" name="浙江省">
+    <City code="01" name="杭州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="上城区" />
+      <County code="03" name="下城区" />
+      <County code="04" name="江干区" />
+      <County code="05" name="拱墅区" />
+      <County code="06" name="西湖区" />
+      <County code="08" name="滨江区" />
+      <County code="09" name="萧山区" />
+      <County code="10" name="余杭区" />
+      <County code="22" name="桐庐县" />
+      <County code="27" name="淳安县" />
+      <County code="82" name="建德市" />
+      <County code="83" name="富阳市" />
+      <County code="85" name="临安市" />
+    </City>
+    <City code="02" name="宁波市">
+      <County code="01" name="市辖区" />
+      <County code="03" name="海曙区" />
+      <County code="04" name="江东区" />
+      <County code="05" name="江北区" />
+      <County code="06" name="北仑区" />
+      <County code="11" name="镇海区" />
+      <County code="12" name="鄞州区" />
+      <County code="25" name="象山县" />
+      <County code="26" name="宁海县" />
+      <County code="81" name="余姚市" />
+      <County code="82" name="慈溪市" />
+      <County code="83" name="奉化市" />
+    </City>
+    <City code="03" name="温州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="鹿城区" />
+      <County code="03" name="龙湾区" />
+      <County code="04" name="瓯海区" />
+      <County code="22" name="洞头县" />
+      <County code="24" name="永嘉县" />
+      <County code="26" name="平阳县" />
+      <County code="27" name="苍南县" />
+      <County code="28" name="文成县" />
+      <County code="29" name="泰顺县" />
+      <County code="81" name="瑞安市" />
+      <County code="82" name="乐清市" />
+    </City>
+    <City code="04" name="嘉兴市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="秀城区" />
+      <County code="11" name="秀洲区" />
+      <County code="21" name="嘉善县" />
+      <County code="24" name="海盐县" />
+      <County code="81" name="海宁市" />
+      <County code="82" name="平湖市" />
+      <County code="83" name="桐乡市" />
+    </City>
+    <City code="05" name="湖州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="吴兴区" />
+      <County code="03" name="南浔区" />
+      <County code="21" name="德清县" />
+      <County code="22" name="长兴县" />
+      <County code="23" name="安吉县" />
+    </City>
+    <City code="06" name="绍兴市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="越城区" />
+      <County code="21" name="绍兴县" />
+      <County code="24" name="新昌县" />
+      <County code="81" name="诸暨市" />
+      <County code="82" name="上虞市" />
+      <County code="83" name="嵊州市" />
+    </City>
+    <City code="07" name="金华市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="婺城区" />
+      <County code="03" name="金东区" />
+      <County code="23" name="武义县" />
+      <County code="26" name="浦江县" />
+      <County code="27" name="磐安县" />
+      <County code="81" name="兰溪市" />
+      <County code="82" name="义乌市" />
+      <County code="83" name="东阳市" />
+      <County code="84" name="永康市" />
+    </City>
+    <City code="08" name="衢州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="柯城区" />
+      <County code="03" name="衢江区" />
+      <County code="22" name="常山县" />
+      <County code="24" name="开化县" />
+      <County code="25" name="龙游县" />
+      <County code="81" name="江山市" />
+    </City>
+    <City code="09" name="舟山市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="定海区" />
+      <County code="03" name="普陀区" />
+      <County code="21" name="岱山县" />
+      <County code="22" name="嵊泗县" />
+    </City>
+    <City code="10" name="台州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="椒江区" />
+      <County code="03" name="黄岩区" />
+      <County code="04" name="路桥区" />
+      <County code="21" name="玉环县" />
+      <County code="22" name="三门县" />
+      <County code="23" name="天台县" />
+      <County code="24" name="仙居县" />
+      <County code="81" name="温岭市" />
+      <County code="82" name="临海市" />
+    </City>
+    <City code="11" name="丽水市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="莲都区" />
+      <County code="21" name="青田县" />
+      <County code="22" name="缙云县" />
+      <County code="23" name="遂昌县" />
+      <County code="24" name="松阳县" />
+      <County code="25" name="云和县" />
+      <County code="26" name="庆元县" />
+      <County code="27" name="景宁畲族自治县" />
+      <County code="81" name="龙泉市" />
+    </City>
+  </Province>
+  <Province code="34" name="安徽省">
+    <City code="01" name="合肥市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="瑶海区" />
+      <County code="03" name="庐阳区" />
+      <County code="04" name="蜀山区" />
+      <County code="11" name="包河区" />
+      <County code="21" name="长丰县" />
+      <County code="22" name="肥东县" />
+      <County code="23" name="肥西县" />
+    </City>
+    <City code="02" name="芜湖市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="镜湖区" />
+      <County code="03" name="马塘区" />
+      <County code="04" name="新芜区" />
+      <County code="07" name="鸠江区" />
+      <County code="21" name="芜湖县" />
+      <County code="22" name="繁昌县" />
+      <County code="23" name="南陵县" />
+    </City>
+    <City code="03" name="蚌埠市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="龙子湖区" />
+      <County code="03" name="蚌山区" />
+      <County code="04" name="禹会区" />
+      <County code="11" name="淮上区" />
+      <County code="21" name="怀远县" />
+      <County code="22" name="五河县" />
+      <County code="23" name="固镇县" />
+    </City>
+    <City code="04" name="淮南市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="大通区" />
+      <County code="03" name="田家庵区" />
+      <County code="04" name="谢家集区" />
+      <County code="05" name="八公山区" />
+      <County code="06" name="潘集区" />
+      <County code="21" name="凤台县" />
+    </City>
+    <City code="05" name="马鞍山市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="金家庄区" />
+      <County code="03" name="花山区" />
+      <County code="04" name="雨山区" />
+      <County code="21" name="当涂县" />
+    </City>
+    <City code="06" name="淮北市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="杜集区" />
+      <County code="03" name="相山区" />
+      <County code="04" name="烈山区" />
+      <County code="21" name="濉溪县" />
+    </City>
+    <City code="07" name="铜陵市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="铜官山区" />
+      <County code="03" name="狮子山区" />
+      <County code="11" name="郊区" />
+      <County code="21" name="铜陵县" />
+    </City>
+    <City code="08" name="安庆市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="迎江区" />
+      <County code="03" name="大观区" />
+      <County code="11" name="郊区" />
+      <County code="22" name="怀宁县" />
+      <County code="23" name="枞阳县" />
+      <County code="24" name="潜山县" />
+      <County code="25" name="太湖县" />
+      <County code="26" name="宿松县" />
+      <County code="27" name="望江县" />
+      <County code="28" name="岳西县" />
+      <County code="81" name="桐城市" />
+    </City>
+    <City code="10" name="黄山市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="屯溪区" />
+      <County code="03" name="黄山区" />
+      <County code="04" name="徽州区" />
+      <County code="21" name="歙县" />
+      <County code="22" name="休宁县" />
+      <County code="23" name="黟县" />
+      <County code="24" name="祁门县" />
+    </City>
+    <City code="11" name="滁州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="琅琊区" />
+      <County code="03" name="南谯区" />
+      <County code="22" name="来安县" />
+      <County code="24" name="全椒县" />
+      <County code="25" name="定远县" />
+      <County code="26" name="凤阳县" />
+      <County code="81" name="天长市" />
+      <County code="82" name="明光市" />
+    </City>
+    <City code="12" name="阜阳市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="颍州区" />
+      <County code="03" name="颍东区" />
+      <County code="04" name="颍泉区" />
+      <County code="21" name="临泉县" />
+      <County code="22" name="太和县" />
+      <County code="25" name="阜南县" />
+      <County code="26" name="颍上县" />
+      <County code="82" name="界首市" />
+    </City>
+    <City code="13" name="宿州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="墉桥区" />
+      <County code="21" name="砀山县" />
+      <County code="22" name="萧县" />
+      <County code="23" name="灵璧县" />
+      <County code="24" name="泗县" />
+    </City>
+    <City code="14" name="巢湖市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="居巢区" />
+      <County code="21" name="庐江县" />
+      <County code="22" name="无为县" />
+      <County code="23" name="含山县" />
+      <County code="24" name="和县" />
+    </City>
+    <City code="15" name="六安市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="金安区" />
+      <County code="03" name="裕安区" />
+      <County code="21" name="寿县" />
+      <County code="22" name="霍邱县" />
+      <County code="23" name="舒城县" />
+      <County code="24" name="金寨县" />
+      <County code="25" name="霍山县" />
+    </City>
+    <City code="16" name="亳州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="谯城区" />
+      <County code="21" name="涡阳县" />
+      <County code="22" name="蒙城县" />
+      <County code="23" name="利辛县" />
+    </City>
+    <City code="17" name="池州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="贵池区" />
+      <County code="21" name="东至县" />
+      <County code="22" name="石台县" />
+      <County code="23" name="青阳县" />
+    </City>
+    <City code="18" name="宣城市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="宣州区" />
+      <County code="21" name="郎溪县" />
+      <County code="22" name="广德县" />
+      <County code="23" name="泾县" />
+      <County code="24" name="绩溪县" />
+      <County code="25" name="旌德县" />
+      <County code="81" name="宁国市" />
+    </City>
+  </Province>
+  <Province code="35" name="福建省">
+    <City code="01" name="福州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="鼓楼区" />
+      <County code="03" name="台江区" />
+      <County code="04" name="仓山区" />
+      <County code="05" name="马尾区" />
+      <County code="11" name="晋安区" />
+      <County code="21" name="闽侯县" />
+      <County code="22" name="连江县" />
+      <County code="23" name="罗源县" />
+      <County code="24" name="闽清县" />
+      <County code="25" name="永泰县" />
+      <County code="28" name="平潭县" />
+      <County code="81" name="福清市" />
+      <County code="82" name="长乐市" />
+    </City>
+    <City code="02" name="厦门市">
+      <County code="01" name="市辖区" />
+      <County code="03" name="思明区" />
+      <County code="05" name="海沧区" />
+      <County code="06" name="湖里区" />
+      <County code="11" name="集美区" />
+      <County code="12" name="同安区" />
+      <County code="13" name="翔安区" />
+    </City>
+    <City code="03" name="莆田市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="城厢区" />
+      <County code="03" name="涵江区" />
+      <County code="04" name="荔城区" />
+      <County code="05" name="秀屿区" />
+      <County code="22" name="仙游县" />
+    </City>
+    <City code="04" name="三明市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="梅列区" />
+      <County code="03" name="三元区" />
+      <County code="21" name="明溪县" />
+      <County code="23" name="清流县" />
+      <County code="24" name="宁化县" />
+      <County code="25" name="大田县" />
+      <County code="26" name="尤溪县" />
+      <County code="27" name="沙县" />
+      <County code="28" name="将乐县" />
+      <County code="29" name="泰宁县" />
+      <County code="30" name="建宁县" />
+      <County code="81" name="永安市" />
+    </City>
+    <City code="05" name="泉州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="鲤城区" />
+      <County code="03" name="丰泽区" />
+      <County code="04" name="洛江区" />
+      <County code="05" name="泉港区" />
+      <County code="21" name="惠安县" />
+      <County code="24" name="安溪县" />
+      <County code="25" name="永春县" />
+      <County code="26" name="德化县" />
+      <County code="27" name="金门县" />
+      <County code="81" name="石狮市" />
+      <County code="82" name="晋江市" />
+      <County code="83" name="南安市" />
+    </City>
+    <City code="06" name="漳州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="芗城区" />
+      <County code="03" name="龙文区" />
+      <County code="22" name="云霄县" />
+      <County code="23" name="漳浦县" />
+      <County code="24" name="诏安县" />
+      <County code="25" name="长泰县" />
+      <County code="26" name="东山县" />
+      <County code="27" name="南靖县" />
+      <County code="28" name="平和县" />
+      <County code="29" name="华安县" />
+      <County code="81" name="龙海市" />
+    </City>
+    <City code="07" name="南平市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="延平区" />
+      <County code="21" name="顺昌县" />
+      <County code="22" name="浦城县" />
+      <County code="23" name="光泽县" />
+      <County code="24" name="松溪县" />
+      <County code="25" name="政和县" />
+      <County code="81" name="邵武市" />
+      <County code="82" name="武夷山市" />
+      <County code="83" name="建瓯市" />
+      <County code="84" name="建阳市" />
+    </City>
+    <City code="08" name="龙岩市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="新罗区" />
+      <County code="21" name="长汀县" />
+      <County code="22" name="永定县" />
+      <County code="23" name="上杭县" />
+      <County code="24" name="武平县" />
+      <County code="25" name="连城县" />
+      <County code="81" name="漳平市" />
+    </City>
+    <City code="09" name="宁德市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="蕉城区" />
+      <County code="21" name="霞浦县" />
+      <County code="22" name="古田县" />
+      <County code="23" name="屏南县" />
+      <County code="24" name="寿宁县" />
+      <County code="25" name="周宁县" />
+      <County code="26" name="柘荣县" />
+      <County code="81" name="福安市" />
+      <County code="82" name="福鼎市" />
+    </City>
+  </Province>
+  <Province code="36" name="江西省">
+    <City code="01" name="南昌市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="东湖区" />
+      <County code="03" name="西湖区" />
+      <County code="04" name="青云谱区" />
+      <County code="05" name="湾里区" />
+      <County code="11" name="青山湖区" />
+      <County code="21" name="南昌县" />
+      <County code="22" name="新建县" />
+      <County code="23" name="安义县" />
+      <County code="24" name="进贤县" />
+    </City>
+    <City code="02" name="景德镇市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="昌江区" />
+      <County code="03" name="珠山区" />
+      <County code="22" name="浮梁县" />
+      <County code="81" name="乐平市" />
+    </City>
+    <City code="03" name="萍乡市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="安源区" />
+      <County code="13" name="湘东区" />
+      <County code="21" name="莲花县" />
+      <County code="22" name="上栗县" />
+      <County code="23" name="芦溪县" />
+    </City>
+    <City code="04" name="九江市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="庐山区" />
+      <County code="03" name="浔阳区" />
+      <County code="21" name="九江县" />
+      <County code="23" name="武宁县" />
+      <County code="24" name="修水县" />
+      <County code="25" name="永修县" />
+      <County code="26" name="德安县" />
+      <County code="27" name="星子县" />
+      <County code="28" name="都昌县" />
+      <County code="29" name="湖口县" />
+      <County code="30" name="彭泽县" />
+      <County code="81" name="瑞昌市" />
+    </City>
+    <City code="05" name="新余市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="渝水区" />
+      <County code="21" name="分宜县" />
+    </City>
+    <City code="06" name="鹰潭市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="月湖区" />
+      <County code="22" name="余江县" />
+      <County code="81" name="贵溪市" />
+    </City>
+    <City code="07" name="赣州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="章贡区" />
+      <County code="21" name="赣县" />
+      <County code="22" name="信丰县" />
+      <County code="23" name="大余县" />
+      <County code="24" name="上犹县" />
+      <County code="25" name="崇义县" />
+      <County code="26" name="安远县" />
+      <County code="27" name="龙南县" />
+      <County code="28" name="定南县" />
+      <County code="29" name="全南县" />
+      <County code="30" name="宁都县" />
+      <County code="31" name="于都县" />
+      <County code="32" name="兴国县" />
+      <County code="33" name="会昌县" />
+      <County code="34" name="寻乌县" />
+      <County code="35" name="石城县" />
+      <County code="81" name="瑞金市" />
+      <County code="82" name="南康市" />
+    </City>
+    <City code="08" name="吉安市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="吉州区" />
+      <County code="03" name="青原区" />
+      <County code="21" name="吉安县" />
+      <County code="22" name="吉水县" />
+      <County code="23" name="峡江县" />
+      <County code="24" name="新干县" />
+      <County code="25" name="永丰县" />
+      <County code="26" name="泰和县" />
+      <County code="27" name="遂川县" />
+      <County code="28" name="万安县" />
+      <County code="29" name="安福县" />
+      <County code="30" name="永新县" />
+      <County code="81" name="井冈山市" />
+    </City>
+    <City code="09" name="宜春市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="袁州区" />
+      <County code="21" name="奉新县" />
+      <County code="22" name="万载县" />
+      <County code="23" name="上高县" />
+      <County code="24" name="宜丰县" />
+      <County code="25" name="靖安县" />
+      <County code="26" name="铜鼓县" />
+      <County code="81" name="丰城市" />
+      <County code="82" name="樟树市" />
+      <County code="83" name="高安市" />
+    </City>
+    <City code="10" name="抚州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="临川区" />
+      <County code="21" name="南城县" />
+      <County code="22" name="黎川县" />
+      <County code="23" name="南丰县" />
+      <County code="24" name="崇仁县" />
+      <County code="25" name="乐安县" />
+      <County code="26" name="宜黄县" />
+      <County code="27" name="金溪县" />
+      <County code="28" name="资溪县" />
+      <County code="29" name="东乡县" />
+      <County code="30" name="广昌县" />
+    </City>
+    <City code="11" name="上饶市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="信州区" />
+      <County code="21" name="上饶县" />
+      <County code="22" name="广丰县" />
+      <County code="23" name="玉山县" />
+      <County code="24" name="铅山县" />
+      <County code="25" name="横峰县" />
+      <County code="26" name="弋阳县" />
+      <County code="27" name="余干县" />
+      <County code="28" name="鄱阳县" />
+      <County code="29" name="万年县" />
+      <County code="30" name="婺源县" />
+      <County code="81" name="德兴市" />
+    </City>
+  </Province>
+  <Province code="37" name="山东省">
+    <City code="01" name="济南市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="历下区" />
+      <County code="03" name="市中区" />
+      <County code="04" name="槐荫区" />
+      <County code="05" name="天桥区" />
+      <County code="12" name="历城区" />
+      <County code="13" name="长清区" />
+      <County code="24" name="平阴县" />
+      <County code="25" name="济阳县" />
+      <County code="26" name="商河县" />
+      <County code="81" name="章丘市" />
+    </City>
+    <City code="02" name="青岛市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="市南区" />
+      <County code="03" name="市北区" />
+      <County code="05" name="四方区" />
+      <County code="11" name="黄岛区" />
+      <County code="12" name="崂山区" />
+      <County code="13" name="李沧区" />
+      <County code="14" name="城阳区" />
+      <County code="81" name="胶州市" />
+      <County code="82" name="即墨市" />
+      <County code="83" name="平度市" />
+      <County code="84" name="胶南市" />
+      <County code="85" name="莱西市" />
+    </City>
+    <City code="03" name="淄博市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="淄川区" />
+      <County code="03" name="张店区" />
+      <County code="04" name="博山区" />
+      <County code="05" name="临淄区" />
+      <County code="06" name="周村区" />
+      <County code="21" name="桓台县" />
+      <County code="22" name="高青县" />
+      <County code="23" name="沂源县" />
+    </City>
+    <City code="04" name="枣庄市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="市中区" />
+      <County code="03" name="薛城区" />
+      <County code="04" name="峄城区" />
+      <County code="05" name="台儿庄区" />
+      <County code="06" name="山亭区" />
+      <County code="81" name="滕州市" />
+    </City>
+    <City code="05" name="东营市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="东营区" />
+      <County code="03" name="河口区" />
+      <County code="21" name="垦利县" />
+      <County code="22" name="利津县" />
+      <County code="23" name="广饶县" />
+    </City>
+    <City code="06" name="烟台市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="芝罘区" />
+      <County code="11" name="福山区" />
+      <County code="12" name="牟平区" />
+      <County code="13" name="莱山区" />
+      <County code="34" name="长岛县" />
+      <County code="81" name="龙口市" />
+      <County code="82" name="莱阳市" />
+      <County code="83" name="莱州市" />
+      <County code="84" name="蓬莱市" />
+      <County code="85" name="招远市" />
+      <County code="86" name="栖霞市" />
+      <County code="87" name="海阳市" />
+    </City>
+    <City code="07" name="潍坊市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="潍城区" />
+      <County code="03" name="寒亭区" />
+      <County code="04" name="坊子区" />
+      <County code="05" name="奎文区" />
+      <County code="24" name="临朐县" />
+      <County code="25" name="昌乐县" />
+      <County code="81" name="青州市" />
+      <County code="82" name="诸城市" />
+      <County code="83" name="寿光市" />
+      <County code="84" name="安丘市" />
+      <County code="85" name="高密市" />
+      <County code="86" name="昌邑市" />
+    </City>
+    <City code="08" name="济宁市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="市中区" />
+      <County code="11" name="任城区" />
+      <County code="26" name="微山县" />
+      <County code="27" name="鱼台县" />
+      <County code="28" name="金乡县" />
+      <County code="29" name="嘉祥县" />
+      <County code="30" name="汶上县" />
+      <County code="31" name="泗水县" />
+      <County code="32" name="梁山县" />
+      <County code="81" name="曲阜市" />
+      <County code="82" name="兖州市" />
+      <County code="83" name="邹城市" />
+    </City>
+    <City code="09" name="泰安市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="泰山区" />
+      <County code="03" name="岱岳区" />
+      <County code="21" name="宁阳县" />
+      <County code="23" name="东平县" />
+      <County code="82" name="新泰市" />
+      <County code="83" name="肥城市" />
+    </City>
+    <City code="10" name="威海市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="环翠区" />
+      <County code="81" name="文登市" />
+      <County code="82" name="荣成市" />
+      <County code="83" name="乳山市" />
+    </City>
+    <City code="11" name="日照市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="东港区" />
+      <County code="21" name="五莲县" />
+      <County code="22" name="莒县" />
+    </City>
+    <City code="12" name="莱芜市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="莱城区" />
+      <County code="03" name="钢城区" />
+    </City>
+    <City code="13" name="临沂市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="兰山区" />
+      <County code="11" name="罗庄区" />
+      <County code="12" name="河东区" />
+      <County code="21" name="沂南县" />
+      <County code="22" name="郯城县" />
+      <County code="23" name="沂水县" />
+      <County code="24" name="苍山县" />
+      <County code="25" name="费县" />
+      <County code="26" name="平邑县" />
+      <County code="27" name="莒南县" />
+      <County code="28" name="蒙阴县" />
+      <County code="29" name="临沭县" />
+    </City>
+    <City code="14" name="德州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="德城区" />
+      <County code="21" name="陵县" />
+      <County code="22" name="宁津县" />
+      <County code="23" name="庆云县" />
+      <County code="24" name="临邑县" />
+      <County code="25" name="齐河县" />
+      <County code="26" name="平原县" />
+      <County code="27" name="夏津县" />
+      <County code="28" name="武城县" />
+      <County code="81" name="乐陵市" />
+      <County code="82" name="禹城市" />
+    </City>
+    <City code="15" name="聊城市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="东昌府区" />
+      <County code="21" name="阳谷县" />
+      <County code="22" name="莘县" />
+      <County code="23" name="茌平县" />
+      <County code="24" name="东阿县" />
+      <County code="25" name="冠县" />
+      <County code="26" name="高唐县" />
+      <County code="81" name="临清市" />
+    </City>
+    <City code="16" name="滨州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="滨城区" />
+      <County code="21" name="惠民县" />
+      <County code="22" name="阳信县" />
+      <County code="23" name="无棣县" />
+      <County code="24" name="沾化县" />
+      <County code="25" name="博兴县" />
+      <County code="26" name="邹平县" />
+    </City>
+    <City code="17" name="荷泽市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="牡丹区" />
+      <County code="21" name="曹县" />
+      <County code="22" name="单县" />
+      <County code="23" name="成武县" />
+      <County code="24" name="巨野县" />
+      <County code="25" name="郓城县" />
+      <County code="26" name="鄄城县" />
+      <County code="27" name="定陶县" />
+      <County code="28" name="东明县" />
+    </City>
+  </Province>
+  <Province code="41" name="河南省">
+    <City code="01" name="郑州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="中原区" />
+      <County code="03" name="二七区" />
+      <County code="04" name="管城回族区" />
+      <County code="05" name="金水区" />
+      <County code="06" name="上街区" />
+      <County code="08" name="邙山区" />
+      <County code="22" name="中牟县" />
+      <County code="81" name="巩义市" />
+      <County code="82" name="荥阳市" />
+      <County code="83" name="新密市" />
+      <County code="84" name="新郑市" />
+      <County code="85" name="登封市" />
+    </City>
+    <City code="02" name="开封市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="龙亭区" />
+      <County code="03" name="顺河回族区" />
+      <County code="04" name="鼓楼区" />
+      <County code="05" name="南关区" />
+      <County code="11" name="郊区" />
+      <County code="21" name="杞县" />
+      <County code="22" name="通许县" />
+      <County code="23" name="尉氏县" />
+      <County code="24" name="开封县" />
+      <County code="25" name="兰考县" />
+    </City>
+    <City code="03" name="洛阳市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="老城区" />
+      <County code="03" name="西工区" />
+      <County code="04" name="廛河回族区" />
+      <County code="05" name="涧西区" />
+      <County code="06" name="吉利区" />
+      <County code="07" name="洛龙区" />
+      <County code="22" name="孟津县" />
+      <County code="23" name="新安县" />
+      <County code="24" name="栾川县" />
+      <County code="25" name="嵩县" />
+      <County code="26" name="汝阳县" />
+      <County code="27" name="宜阳县" />
+      <County code="28" name="洛宁县" />
+      <County code="29" name="伊川县" />
+      <County code="81" name="偃师市" />
+    </City>
+    <City code="04" name="平顶山市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="新华区" />
+      <County code="03" name="卫东区" />
+      <County code="04" name="石龙区" />
+      <County code="11" name="湛河区" />
+      <County code="21" name="宝丰县" />
+      <County code="22" name="叶县" />
+      <County code="23" name="鲁山县" />
+      <County code="25" name="郏县" />
+      <County code="81" name="舞钢市" />
+      <County code="82" name="汝州市" />
+    </City>
+    <City code="05" name="安阳市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="文峰区" />
+      <County code="03" name="北关区" />
+      <County code="05" name="殷都区" />
+      <County code="06" name="龙安区" />
+      <County code="22" name="安阳县" />
+      <County code="23" name="汤阴县" />
+      <County code="26" name="滑县" />
+      <County code="27" name="内黄县" />
+      <County code="81" name="林州市" />
+    </City>
+    <City code="06" name="鹤壁市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="鹤山区" />
+      <County code="03" name="山城区" />
+      <County code="11" name="淇滨区" />
+      <County code="21" name="浚县" />
+      <County code="22" name="淇县" />
+    </City>
+    <City code="07" name="新乡市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="红旗区" />
+      <County code="03" name="卫滨区" />
+      <County code="04" name="凤泉区" />
+      <County code="11" name="牧野区" />
+      <County code="21" name="新乡县" />
+      <County code="24" name="获嘉县" />
+      <County code="25" name="原阳县" />
+      <County code="26" name="延津县" />
+      <County code="27" name="封丘县" />
+      <County code="28" name="长垣县" />
+      <County code="81" name="卫辉市" />
+      <County code="82" name="辉县市" />
+    </City>
+    <City code="08" name="焦作市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="解放区" />
+      <County code="03" name="中站区" />
+      <County code="04" name="马村区" />
+      <County code="11" name="山阳区" />
+      <County code="21" name="修武县" />
+      <County code="22" name="博爱县" />
+      <County code="23" name="武陟县" />
+      <County code="25" name="温县" />
+      <County code="81" name="济源市" />
+      <County code="82" name="沁阳市" />
+      <County code="83" name="孟州市" />
+    </City>
+    <City code="09" name="濮阳市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="华龙区" />
+      <County code="22" name="清丰县" />
+      <County code="23" name="南乐县" />
+      <County code="26" name="范县" />
+      <County code="27" name="台前县" />
+      <County code="28" name="濮阳县" />
+    </City>
+    <City code="10" name="许昌市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="魏都区" />
+      <County code="23" name="许昌县" />
+      <County code="24" name="鄢陵县" />
+      <County code="25" name="襄城县" />
+      <County code="81" name="禹州市" />
+      <County code="82" name="长葛市" />
+    </City>
+    <City code="11" name="漯河市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="源汇区" />
+      <County code="21" name="舞阳县" />
+      <County code="22" name="临颍县" />
+      <County code="23" name="郾城县" />
+    </City>
+    <City code="12" name="三门峡市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="湖滨区" />
+      <County code="21" name="渑池县" />
+      <County code="22" name="陕县" />
+      <County code="24" name="卢氏县" />
+      <County code="81" name="义马市" />
+      <County code="82" name="灵宝市" />
+    </City>
+    <City code="13" name="南阳市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="宛城区" />
+      <County code="03" name="卧龙区" />
+      <County code="21" name="南召县" />
+      <County code="22" name="方城县" />
+      <County code="23" name="西峡县" />
+      <County code="24" name="镇平县" />
+      <County code="25" name="内乡县" />
+      <County code="26" name="淅川县" />
+      <County code="27" name="社旗县" />
+      <County code="28" name="唐河县" />
+      <County code="29" name="新野县" />
+      <County code="30" name="桐柏县" />
+      <County code="81" name="邓州市" />
+    </City>
+    <City code="14" name="商丘市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="梁园区" />
+      <County code="03" name="睢阳区" />
+      <County code="21" name="民权县" />
+      <County code="22" name="睢县" />
+      <County code="23" name="宁陵县" />
+      <County code="24" name="柘城县" />
+      <County code="25" name="虞城县" />
+      <County code="26" name="夏邑县" />
+      <County code="81" name="永城市" />
+    </City>
+    <City code="15" name="信阳市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="师河区" />
+      <County code="03" name="平桥区" />
+      <County code="21" name="罗山县" />
+      <County code="22" name="光山县" />
+      <County code="23" name="新县" />
+      <County code="24" name="商城县" />
+      <County code="25" name="固始县" />
+      <County code="26" name="潢川县" />
+      <County code="27" name="淮滨县" />
+      <County code="28" name="息县" />
+    </City>
+    <City code="16" name="周口市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="川汇区" />
+      <County code="21" name="扶沟县" />
+      <County code="22" name="西华县" />
+      <County code="23" name="商水县" />
+      <County code="24" name="沈丘县" />
+      <County code="25" name="郸城县" />
+      <County code="26" name="淮阳县" />
+      <County code="27" name="太康县" />
+      <County code="28" name="鹿邑县" />
+      <County code="81" name="项城市" />
+    </City>
+    <City code="17" name="驻马店市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="驿城区" />
+      <County code="21" name="西平县" />
+      <County code="22" name="上蔡县" />
+      <County code="23" name="平舆县" />
+      <County code="24" name="正阳县" />
+      <County code="25" name="确山县" />
+      <County code="26" name="泌阳县" />
+      <County code="27" name="汝南县" />
+      <County code="28" name="遂平县" />
+      <County code="29" name="新蔡县" />
+    </City>
+  </Province>
+  <Province code="42" name="湖北省">
+    <City code="01" name="武汉市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="江岸区" />
+      <County code="03" name="江汉区" />
+      <County code="04" name="乔口区" />
+      <County code="05" name="汉阳区" />
+      <County code="06" name="武昌区" />
+      <County code="07" name="青山区" />
+      <County code="11" name="洪山区" />
+      <County code="12" name="东西湖区" />
+      <County code="13" name="汉南区" />
+      <County code="14" name="蔡甸区" />
+      <County code="15" name="江夏区" />
+      <County code="16" name="黄陂区" />
+      <County code="17" name="新洲区" />
+    </City>
+    <City code="02" name="黄石市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="黄石港区" />
+      <County code="03" name="西塞山区" />
+      <County code="04" name="下陆区" />
+      <County code="05" name="铁山区" />
+      <County code="22" name="阳新县" />
+      <County code="81" name="大冶市" />
+    </City>
+    <City code="03" name="十堰市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="茅箭区" />
+      <County code="03" name="张湾区" />
+      <County code="21" name="郧县" />
+      <County code="22" name="郧西县" />
+      <County code="23" name="竹山县" />
+      <County code="24" name="竹溪县" />
+      <County code="25" name="房县" />
+      <County code="81" name="丹江口市" />
+    </City>
+    <City code="05" name="宜昌市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="西陵区" />
+      <County code="03" name="伍家岗区" />
+      <County code="04" name="点军区" />
+      <County code="05" name="虎亭区" />
+      <County code="06" name="夷陵区" />
+      <County code="25" name="远安县" />
+      <County code="26" name="兴山县" />
+      <County code="27" name="秭归县" />
+      <County code="28" name="长阳土家族自治县" />
+      <County code="29" name="五峰土家族自治县" />
+      <County code="81" name="宜都市" />
+      <County code="82" name="当阳市" />
+      <County code="83" name="枝江市" />
+    </City>
+    <City code="06" name="襄樊市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="襄城区" />
+      <County code="06" name="樊城区" />
+      <County code="07" name="襄阳区" />
+      <County code="24" name="南漳县" />
+      <County code="25" name="谷城县" />
+      <County code="26" name="保康县" />
+      <County code="82" name="老河口市" />
+      <County code="83" name="枣阳市" />
+      <County code="84" name="宜城市" />
+    </City>
+    <City code="07" name="鄂州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="梁子湖区" />
+      <County code="03" name="华容区" />
+      <County code="04" name="鄂城区" />
+    </City>
+    <City code="08" name="荆门市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="东宝区" />
+      <County code="04" name="掇刀区" />
+      <County code="21" name="京山县" />
+      <County code="22" name="沙洋县" />
+      <County code="81" name="钟祥市" />
+    </City>
+    <City code="09" name="孝感市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="孝南区" />
+      <County code="21" name="孝昌县" />
+      <County code="22" name="大悟县" />
+      <County code="23" name="云梦县" />
+      <County code="81" name="应城市" />
+      <County code="82" name="安陆市" />
+      <County code="84" name="汉川市" />
+    </City>
+    <City code="10" name="荆州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="沙市区" />
+      <County code="03" name="荆州区" />
+      <County code="22" name="公安县" />
+      <County code="23" name="监利县" />
+      <County code="24" name="江陵县" />
+      <County code="81" name="石首市" />
+      <County code="83" name="洪湖市" />
+      <County code="87" name="松滋市" />
+    </City>
+    <City code="11" name="黄冈市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="黄州区" />
+      <County code="21" name="团风县" />
+      <County code="22" name="红安县" />
+      <County code="23" name="罗田县" />
+      <County code="24" name="英山县" />
+      <County code="25" name="浠水县" />
+      <County code="26" name="蕲春县" />
+      <County code="27" name="黄梅县" />
+      <County code="81" name="麻城市" />
+      <County code="82" name="武穴市" />
+    </City>
+    <City code="12" name="咸宁市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="咸安区" />
+      <County code="21" name="嘉鱼县" />
+      <County code="22" name="通城县" />
+      <County code="23" name="崇阳县" />
+      <County code="24" name="通山县" />
+      <County code="81" name="赤壁市" />
+    </City>
+    <City code="13" name="随州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="曾都区" />
+      <County code="81" name="广水市" />
+    </City>
+    <City code="28" name="恩施土家族苗族自治州">
+      <County code="01" name="恩施市" />
+      <County code="02" name="利川市" />
+      <County code="22" name="建始县" />
+      <County code="23" name="巴东县" />
+      <County code="25" name="宣恩县" />
+      <County code="26" name="咸丰县" />
+      <County code="27" name="来凤县" />
+      <County code="28" name="鹤峰县" />
+    </City>
+    <City code="90" name="省直辖行政单位">
+      <County code="04" name="仙桃市" />
+      <County code="05" name="潜江市" />
+      <County code="06" name="天门市" />
+      <County code="21" name="神农架林区" />
+    </City>
+  </Province>
+  <Province code="43" name="湖南省">
+    <City code="01" name="长沙市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="芙蓉区" />
+      <County code="03" name="天心区" />
+      <County code="04" name="岳麓区" />
+      <County code="05" name="开福区" />
+      <County code="11" name="雨花区" />
+      <County code="21" name="长沙县" />
+      <County code="22" name="望城县" />
+      <County code="24" name="宁乡县" />
+      <County code="81" name="浏阳市" />
+    </City>
+    <City code="02" name="株洲市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="荷塘区" />
+      <County code="03" name="芦淞区" />
+      <County code="04" name="石峰区" />
+      <County code="11" name="天元区" />
+      <County code="21" name="株洲县" />
+      <County code="23" name="攸县" />
+      <County code="24" name="茶陵县" />
+      <County code="25" name="炎陵县" />
+      <County code="81" name="醴陵市" />
+    </City>
+    <City code="03" name="湘潭市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="雨湖区" />
+      <County code="04" name="岳塘区" />
+      <County code="21" name="湘潭县" />
+      <County code="81" name="湘乡市" />
+      <County code="82" name="韶山市" />
+    </City>
+    <City code="04" name="衡阳市">
+      <County code="01" name="市辖区" />
+      <County code="05" name="珠晖区" />
+      <County code="06" name="雁峰区" />
+      <County code="07" name="石鼓区" />
+      <County code="08" name="蒸湘区" />
+      <County code="12" name="南岳区" />
+      <County code="21" name="衡阳县" />
+      <County code="22" name="衡南县" />
+      <County code="23" name="衡山县" />
+      <County code="24" name="衡东县" />
+      <County code="26" name="祁东县" />
+      <County code="81" name="耒阳市" />
+      <County code="82" name="常宁市" />
+    </City>
+    <City code="05" name="邵阳市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="双清区" />
+      <County code="03" name="大祥区" />
+      <County code="11" name="北塔区" />
+      <County code="21" name="邵东县" />
+      <County code="22" name="新邵县" />
+      <County code="23" name="邵阳县" />
+      <County code="24" name="隆回县" />
+      <County code="25" name="洞口县" />
+      <County code="27" name="绥宁县" />
+      <County code="28" name="新宁县" />
+      <County code="29" name="城步苗族自治县" />
+      <County code="81" name="武冈市" />
+    </City>
+    <City code="06" name="岳阳市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="岳阳楼区" />
+      <County code="03" name="云溪区" />
+      <County code="11" name="君山区" />
+      <County code="21" name="岳阳县" />
+      <County code="23" name="华容县" />
+      <County code="24" name="湘阴县" />
+      <County code="26" name="平江县" />
+      <County code="81" name="汨罗市" />
+      <County code="82" name="临湘市" />
+    </City>
+    <City code="07" name="常德市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="武陵区" />
+      <County code="03" name="鼎城区" />
+      <County code="21" name="安乡县" />
+      <County code="22" name="汉寿县" />
+      <County code="23" name="澧县" />
+      <County code="24" name="临澧县" />
+      <County code="25" name="桃源县" />
+      <County code="26" name="石门县" />
+      <County code="81" name="津市市" />
+    </City>
+    <City code="08" name="张家界市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="永定区" />
+      <County code="11" name="武陵源区" />
+      <County code="21" name="慈利县" />
+      <County code="22" name="桑植县" />
+    </City>
+    <City code="09" name="益阳市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="资阳区" />
+      <County code="03" name="赫山区" />
+      <County code="21" name="南县" />
+      <County code="22" name="桃江县" />
+      <County code="23" name="安化县" />
+      <County code="81" name="沅江市" />
+    </City>
+    <City code="10" name="郴州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="北湖区" />
+      <County code="03" name="苏仙区" />
+      <County code="21" name="桂阳县" />
+      <County code="22" name="宜章县" />
+      <County code="23" name="永兴县" />
+      <County code="24" name="嘉禾县" />
+      <County code="25" name="临武县" />
+      <County code="26" name="汝城县" />
+      <County code="27" name="桂东县" />
+      <County code="28" name="安仁县" />
+      <County code="81" name="资兴市" />
+    </City>
+    <City code="11" name="永州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="芝山区" />
+      <County code="03" name="冷水滩区" />
+      <County code="21" name="祁阳县" />
+      <County code="22" name="东安县" />
+      <County code="23" name="双牌县" />
+      <County code="24" name="道县" />
+      <County code="25" name="江永县" />
+      <County code="26" name="宁远县" />
+      <County code="27" name="蓝山县" />
+      <County code="28" name="新田县" />
+      <County code="29" name="江华瑶族自治县" />
+    </City>
+    <City code="12" name="怀化市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="鹤城区" />
+      <County code="21" name="中方县" />
+      <County code="22" name="沅陵县" />
+      <County code="23" name="辰溪县" />
+      <County code="24" name="溆浦县" />
+      <County code="25" name="会同县" />
+      <County code="26" name="麻阳苗族自治县" />
+      <County code="27" name="新晃侗族自治县" />
+      <County code="28" name="芷江侗族自治县" />
+      <County code="29" name="靖州苗族侗族自治县" />
+      <County code="30" name="通道侗族自治县" />
+      <County code="81" name="洪江市" />
+    </City>
+    <City code="13" name="娄底市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="娄星区" />
+      <County code="21" name="双峰县" />
+      <County code="22" name="新化县" />
+      <County code="81" name="冷水江市" />
+      <County code="82" name="涟源市" />
+    </City>
+    <City code="31" name="湘西土家族苗族自治州">
+      <County code="01" name="吉首市" />
+      <County code="22" name="泸溪县" />
+      <County code="23" name="凤凰县" />
+      <County code="24" name="花垣县" />
+      <County code="25" name="保靖县" />
+      <County code="26" name="古丈县" />
+      <County code="27" name="永顺县" />
+      <County code="30" name="龙山县" />
+    </City>
+  </Province>
+  <Province code="44" name="广东省">
+    <City code="01" name="广州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="东山区" />
+      <County code="03" name="荔湾区" />
+      <County code="04" name="越秀区" />
+      <County code="05" name="海珠区" />
+      <County code="06" name="天河区" />
+      <County code="07" name="芳村区" />
+      <County code="11" name="白云区" />
+      <County code="12" name="黄埔区" />
+      <County code="13" name="番禺区" />
+      <County code="14" name="花都区" />
+      <County code="83" name="增城市" />
+      <County code="84" name="从化市" />
+    </City>
+    <City code="02" name="韶关市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="北江区" />
+      <County code="03" name="武江区" />
+      <County code="04" name="浈江区" />
+      <County code="21" name="曲江县" />
+      <County code="22" name="始兴县" />
+      <County code="24" name="仁化县" />
+      <County code="29" name="翁源县" />
+      <County code="32" name="乳源瑶族自治县" />
+      <County code="33" name="新丰县" />
+      <County code="81" name="乐昌市" />
+      <County code="82" name="南雄市" />
+    </City>
+    <City code="03" name="深圳市">
+      <County code="01" name="市辖区" />
+      <County code="03" name="罗湖区" />
+      <County code="04" name="福田区" />
+      <County code="05" name="南山区" />
+      <County code="06" name="宝安区" />
+      <County code="07" name="龙岗区" />
+      <County code="08" name="盐田区" />
+    </City>
+    <City code="04" name="珠海市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="香洲区" />
+      <County code="03" name="斗门区" />
+      <County code="04" name="金湾区" />
+    </City>
+    <City code="05" name="汕头市">
+      <County code="01" name="市辖区" />
+      <County code="07" name="龙湖区" />
+      <County code="11" name="金平区" />
+      <County code="12" name="濠江区" />
+      <County code="13" name="潮阳区" />
+      <County code="14" name="潮南区" />
+      <County code="15" name="澄海区" />
+      <County code="23" name="南澳县" />
+    </City>
+    <City code="06" name="佛山市">
+      <County code="01" name="市辖区" />
+      <County code="04" name="禅城区" />
+      <County code="05" name="南海区" />
+      <County code="06" name="顺德区" />
+      <County code="07" name="三水区" />
+      <County code="08" name="高明区" />
+    </City>
+    <City code="07" name="江门市">
+      <County code="01" name="市辖区" />
+      <County code="03" name="蓬江区" />
+      <County code="04" name="江海区" />
+      <County code="05" name="新会区" />
+      <County code="81" name="台山市" />
+      <County code="83" name="开平市" />
+      <County code="84" name="鹤山市" />
+      <County code="85" name="恩平市" />
+    </City>
+    <City code="08" name="湛江市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="赤坎区" />
+      <County code="03" name="霞山区" />
+      <County code="04" name="坡头区" />
+      <County code="11" name="麻章区" />
+      <County code="23" name="遂溪县" />
+      <County code="25" name="徐闻县" />
+      <County code="81" name="廉江市" />
+      <County code="82" name="雷州市" />
+      <County code="83" name="吴川市" />
+    </City>
+    <City code="09" name="茂名市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="茂南区" />
+      <County code="03" name="茂港区" />
+      <County code="23" name="电白县" />
+      <County code="81" name="高州市" />
+      <County code="82" name="化州市" />
+      <County code="83" name="信宜市" />
+    </City>
+    <City code="12" name="肇庆市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="端州区" />
+      <County code="03" name="鼎湖区" />
+      <County code="23" name="广宁县" />
+      <County code="24" name="怀集县" />
+      <County code="25" name="封开县" />
+      <County code="26" name="德庆县" />
+      <County code="83" name="高要市" />
+      <County code="84" name="四会市" />
+    </City>
+    <City code="13" name="惠州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="惠城区" />
+      <County code="03" name="惠阳区" />
+      <County code="22" name="博罗县" />
+      <County code="23" name="惠东县" />
+      <County code="24" name="龙门县" />
+    </City>
+    <City code="14" name="梅州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="梅江区" />
+      <County code="21" name="梅县" />
+      <County code="22" name="大埔县" />
+      <County code="23" name="丰顺县" />
+      <County code="24" name="五华县" />
+      <County code="26" name="平远县" />
+      <County code="27" name="蕉岭县" />
+      <County code="81" name="兴宁市" />
+    </City>
+    <City code="15" name="汕尾市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="城区" />
+      <County code="21" name="海丰县" />
+      <County code="23" name="陆河县" />
+      <County code="81" name="陆丰市" />
+    </City>
+    <City code="16" name="河源市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="源城区" />
+      <County code="21" name="紫金县" />
+      <County code="22" name="龙川县" />
+      <County code="23" name="连平县" />
+      <County code="24" name="和平县" />
+      <County code="25" name="东源县" />
+    </City>
+    <City code="17" name="阳江市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="江城区" />
+      <County code="21" name="阳西县" />
+      <County code="23" name="阳东县" />
+      <County code="81" name="阳春市" />
+    </City>
+    <City code="18" name="清远市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="清城区" />
+      <County code="21" name="佛冈县" />
+      <County code="23" name="阳山县" />
+      <County code="25" name="连山壮族瑶族自治县" />
+      <County code="26" name="连南瑶族自治县" />
+      <County code="27" name="清新县" />
+      <County code="81" name="英德市" />
+      <County code="82" name="连州市" />
+    </City>
+    <City code="19" name="东莞市" />
+    <City code="20" name="中山市" />
+    <City code="51" name="潮州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="湘桥区" />
+      <County code="21" name="潮安县" />
+      <County code="22" name="饶平县" />
+    </City>
+    <City code="52" name="揭阳市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="榕城区" />
+      <County code="21" name="揭东县" />
+      <County code="22" name="揭西县" />
+      <County code="24" name="惠来县" />
+      <County code="81" name="普宁市" />
+    </City>
+    <City code="53" name="云浮市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="云城区" />
+      <County code="21" name="新兴县" />
+      <County code="22" name="郁南县" />
+      <County code="23" name="云安县" />
+      <County code="81" name="罗定市" />
+    </City>
+  </Province>
+  <Province code="45" name="广西省壮族自治区">
+    <City code="01" name="广西省南宁市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="兴宁区" />
+      <County code="03" name="新城区" />
+      <County code="04" name="城北区" />
+      <County code="05" name="江南区" />
+      <County code="06" name="永新区" />
+      <County code="21" name="邕宁县" />
+      <County code="22" name="武鸣县" />
+      <County code="23" name="隆安县" />
+      <County code="24" name="马山县" />
+      <County code="25" name="上林县" />
+      <County code="26" name="宾阳县" />
+      <County code="27" name="横县" />
+    </City>
+    <City code="02" name="广西省柳州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="城中区" />
+      <County code="03" name="鱼峰区" />
+      <County code="04" name="柳南区" />
+      <County code="05" name="柳北区" />
+      <County code="21" name="广西省柳江县" />
+      <County code="22" name="柳城县" />
+      <County code="23" name="鹿寨县" />
+      <County code="24" name="融安县" />
+      <County code="25" name="融水苗族自治县" />
+      <County code="26" name="三江侗族自治县" />
+    </City>
+    <City code="03" name="广西省桂林市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="秀峰区" />
+      <County code="03" name="叠彩区" />
+      <County code="04" name="象山区" />
+      <County code="05" name="七星区" />
+      <County code="11" name="雁山区" />
+      <County code="21" name="阳朔县" />
+      <County code="22" name="临桂县" />
+      <County code="23" name="灵川县" />
+      <County code="24" name="全州县" />
+      <County code="25" name="兴安县" />
+      <County code="26" name="永福县" />
+      <County code="27" name="灌阳县" />
+      <County code="28" name="龙胜各族自治县" />
+      <County code="29" name="资源县" />
+      <County code="30" name="平乐县" />
+      <County code="31" name="荔蒲县" />
+      <County code="32" name="恭城瑶族自治县" />
+    </City>
+    <City code="04" name="广西省梧州市">
+      <County code="01" name="市辖区" />
+      <County code="03" name="万秀区" />
+      <County code="04" name="蝶山区" />
+      <County code="05" name="长洲区" />
+      <County code="21" name="苍梧县" />
+      <County code="22" name="藤县" />
+      <County code="23" name="蒙山县" />
+      <County code="81" name="岑溪市" />
+    </City>
+    <City code="05" name="广西省北海市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="海城区" />
+      <County code="03" name="银海区" />
+      <County code="12" name="铁山港区" />
+      <County code="21" name="合浦县" />
+    </City>
+    <City code="06" name="广西省防城港市">
+      <County code="01" name="辖区" />
+      <County code="02" name="广西省防城港港口区" />
+      <County code="03" name="广西省防城港防城区" />
+      <County code="21" name="上思县" />
+      <County code="81" name="东兴市" />
+    </City>
+    <City code="07" name="广西省钦州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="钦南区" />
+      <County code="03" name="钦北区" />
+      <County code="21" name="灵山县" />
+      <County code="22" name="浦北县" />
+    </City>
+    <City code="08" name="广西省贵港市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="港北区" />
+      <County code="03" name="港南区" />
+      <County code="04" name="覃塘区" />
+      <County code="21" name="平南县" />
+      <County code="81" name="桂平市" />
+    </City>
+    <City code="09" name="广西省玉林市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="玉州区" />
+      <County code="21" name="容县" />
+      <County code="22" name="陆川县" />
+      <County code="23" name="博白县" />
+      <County code="24" name="兴业县" />
+      <County code="81" name="北流市" />
+    </City>
+    <City code="10" name="广西省百色市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="右江区" />
+      <County code="21" name="田阳县" />
+      <County code="22" name="田东县" />
+      <County code="23" name="平果县" />
+      <County code="24" name="德保县" />
+      <County code="25" name="靖西县" />
+      <County code="26" name="那坡县" />
+      <County code="27" name="凌云县" />
+      <County code="28" name="乐业县" />
+      <County code="29" name="田林县" />
+      <County code="30" name="西林县" />
+      <County code="31" name="隆林各族自治县" />
+    </City>
+    <City code="11" name="广西省贺州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="八步区" />
+      <County code="21" name="昭平县" />
+      <County code="22" name="钟山县" />
+      <County code="23" name="富川瑶族自治县" />
+    </City>
+    <City code="12" name="广西省河池市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="金城江区" />
+      <County code="21" name="南丹县" />
+      <County code="22" name="天峨县" />
+      <County code="23" name="凤山县" />
+      <County code="24" name="东兰县" />
+      <County code="25" name="罗城仫佬族自治县" />
+      <County code="26" name="环江毛南族自治县" />
+      <County code="27" name="巴马瑶族自治县" />
+      <County code="28" name="都安瑶族自治县" />
+      <County code="29" name="大化瑶族自治县" />
+      <County code="81" name="宜州市" />
+    </City>
+    <City code="13" name="广西省来宾市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="兴宾区" />
+      <County code="21" name="忻城县" />
+      <County code="22" name="象州县" />
+      <County code="23" name="武宣县" />
+      <County code="24" name="金秀瑶族自治县" />
+      <County code="81" name="合山市" />
+    </City>
+    <City code="14" name="广西省崇左市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="江洲区" />
+      <County code="21" name="扶绥县" />
+      <County code="22" name="宁明县" />
+      <County code="23" name="龙州县" />
+      <County code="24" name="大新县" />
+      <County code="25" name="天等县" />
+      <County code="81" name="凭祥市" />
+    </City>
+  </Province>
+  <Province code="46" name="海南省">
+    <City code="01" name="海口市">
+      <County code="01" name="市辖区" />
+      <County code="05" name="秀英区" />
+      <County code="06" name="龙华区" />
+      <County code="07" name="琼山区" />
+      <County code="08" name="美兰区" />
+    </City>
+    <City code="02" name="三亚市">
+      <County code="01" name="市辖区" />
+    </City>
+    <City code="90" name="省直辖县级行政单位">
+      <County code="01" name="五指山市" />
+      <County code="02" name="琼海市" />
+      <County code="03" name="儋州市" />
+      <County code="05" name="文昌市" />
+      <County code="06" name="万宁市" />
+      <County code="07" name="东方市" />
+      <County code="25" name="定安县" />
+      <County code="26" name="屯昌县" />
+      <County code="27" name="澄迈县" />
+      <County code="28" name="临高县" />
+      <County code="30" name="白沙黎族自治县" />
+      <County code="31" name="昌江黎族自治县" />
+      <County code="33" name="乐东黎族自治县" />
+      <County code="34" name="陵水黎族自治县" />
+      <County code="35" name="保亭黎族苗族自治县" />
+      <County code="36" name="琼中黎族苗族自治县" />
+      <County code="37" name="西沙群岛" />
+      <County code="38" name="南沙群岛" />
+      <County code="39" name="中沙群岛的岛礁及其海域" />
+    </City>
+  </Province>
+  <Province code="50" name="重庆市">
+    <City code="0101" name="万州区" />
+    <City code="0102" name="涪陵区" />
+    <City code="0103" name="渝中区" />
+    <City code="0104" name="大渡口区" />
+    <City code="0105" name="江北区" />
+    <City code="0106" name="沙坪坝区" />
+    <City code="0107" name="九龙坡区" />
+    <City code="0108" name="南岸区" />
+    <City code="0109" name="北碚区" />
+    <City code="0110" name="万盛区" />
+    <City code="0111" name="双桥区" />
+    <City code="0112" name="渝北区" />
+    <City code="0113" name="巴南区" />
+    <City code="0114" name="黔江区" />
+    <City code="0115" name="长寿区" />
+    <City code="0222" name="綦江县" />
+    <City code="0223" name="潼南县" />
+    <City code="0224" name="铜梁县" />
+    <City code="0225" name="大足县" />
+    <City code="0226" name="荣昌县" />
+    <City code="0227" name="璧山县" />
+    <City code="0228" name="梁平县" />
+    <City code="0229" name="城口县" />
+    <City code="0230" name="丰都县" />
+    <City code="0231" name="垫江县" />
+    <City code="0232" name="武隆县" />
+    <City code="0233" name="忠县" />
+    <City code="0234" name="开县" />
+    <City code="0235" name="云阳县" />
+    <City code="0236" name="奉节县" />
+    <City code="0237" name="巫山县" />
+    <City code="0238" name="巫溪县" />
+    <City code="0240" name="石柱土家族自治县" />
+    <City code="0241" name="秀山土家族苗族自治县" />
+    <City code="0242" name="酉阳土家族苗族自治县" />
+    <City code="0243" name="彭水苗族土家族自治县" />
+    <City code="0381" name="江津市" />
+    <City code="0382" name="合川市" />
+    <City code="0383" name="永川市" />
+    <City code="0384" name="南川市" />
+  </Province>
+  <Province code="51" name="四川省">
+    <City code="01" name="成都市">
+      <County code="01" name="市辖区" />
+      <County code="04" name="锦江区" />
+      <County code="05" name="青羊区" />
+      <County code="06" name="金牛区" />
+      <County code="07" name="武侯区" />
+      <County code="08" name="成华区" />
+      <County code="12" name="龙泉驿区" />
+      <County code="13" name="青白江区" />
+      <County code="14" name="新都区" />
+      <County code="15" name="温江区" />
+      <County code="21" name="金堂县" />
+      <County code="22" name="双流县" />
+      <County code="24" name="郫县" />
+      <County code="29" name="大邑县" />
+      <County code="31" name="蒲江县" />
+      <County code="32" name="新津县" />
+      <County code="81" name="都江堰市" />
+      <County code="82" name="彭州市" />
+      <County code="83" name="邛崃市" />
+      <County code="84" name="崇州市" />
+    </City>
+    <City code="03" name="自贡市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="自流井区" />
+      <County code="03" name="贡井区" />
+      <County code="04" name="大安区" />
+      <County code="11" name="沿滩区" />
+      <County code="21" name="荣县" />
+      <County code="22" name="富顺县" />
+    </City>
+    <City code="04" name="攀枝花市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="东区" />
+      <County code="03" name="西区" />
+      <County code="11" name="仁和区" />
+      <County code="21" name="米易县" />
+      <County code="22" name="盐边县" />
+    </City>
+    <City code="05" name="泸州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="江阳区" />
+      <County code="03" name="纳溪区" />
+      <County code="04" name="龙马潭区" />
+      <County code="21" name="泸县" />
+      <County code="22" name="合江县" />
+      <County code="24" name="叙永县" />
+      <County code="25" name="古蔺县" />
+    </City>
+    <City code="06" name="德阳市">
+      <County code="01" name="市辖区" />
+      <County code="03" name="旌阳区" />
+      <County code="23" name="中江县" />
+      <County code="26" name="罗江县" />
+      <County code="81" name="广汉市" />
+      <County code="82" name="什邡市" />
+      <County code="83" name="绵竹市" />
+    </City>
+    <City code="07" name="绵阳市">
+      <County code="01" name="市辖区" />
+      <County code="03" name="涪城区" />
+      <County code="04" name="游仙区" />
+      <County code="22" name="三台县" />
+      <County code="23" name="盐亭县" />
+      <County code="24" name="安县" />
+      <County code="25" name="梓潼县" />
+      <County code="26" name="北川羌族自治县" />
+      <County code="27" name="平武县" />
+      <County code="81" name="江油市" />
+    </City>
+    <City code="08" name="广元市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="市中区" />
+      <County code="11" name="元坝区" />
+      <County code="12" name="朝天区" />
+      <County code="21" name="旺苍县" />
+      <County code="22" name="青川县" />
+      <County code="23" name="剑阁县" />
+      <County code="24" name="苍溪县" />
+    </City>
+    <City code="09" name="遂宁市">
+      <County code="01" name="市辖区" />
+      <County code="03" name="船山区" />
+      <County code="04" name="安居区" />
+      <County code="21" name="蓬溪县" />
+      <County code="22" name="射洪县" />
+      <County code="23" name="大英县" />
+    </City>
+    <City code="10" name="内江市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="市中区" />
+      <County code="11" name="东兴区" />
+      <County code="24" name="威远县" />
+      <County code="25" name="资中县" />
+      <County code="28" name="隆昌县" />
+    </City>
+    <City code="11" name="乐山市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="市中区" />
+      <County code="11" name="沙湾区" />
+      <County code="12" name="五通桥区" />
+      <County code="13" name="金口河区" />
+      <County code="23" name="犍为县" />
+      <County code="24" name="井研县" />
+      <County code="26" name="夹江县" />
+      <County code="29" name="沐川县" />
+      <County code="32" name="峨边彝族自治县" />
+      <County code="33" name="马边彝族自治县" />
+      <County code="81" name="峨眉山市" />
+    </City>
+    <City code="13" name="南充市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="顺庆区" />
+      <County code="03" name="高坪区" />
+      <County code="04" name="嘉陵区" />
+      <County code="21" name="南部县" />
+      <County code="22" name="营山县" />
+      <County code="23" name="蓬安县" />
+      <County code="24" name="仪陇县" />
+      <County code="25" name="西充县" />
+      <County code="81" name="阆中市" />
+    </City>
+    <City code="14" name="眉山市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="东坡区" />
+      <County code="21" name="仁寿县" />
+      <County code="22" name="彭山县" />
+      <County code="23" name="洪雅县" />
+      <County code="24" name="丹棱县" />
+      <County code="25" name="青神县" />
+    </City>
+    <City code="15" name="宜宾市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="翠屏区" />
+      <County code="21" name="宜宾县" />
+      <County code="22" name="南溪县" />
+      <County code="23" name="江安县" />
+      <County code="24" name="长宁县" />
+      <County code="25" name="高县" />
+      <County code="26" name="珙县" />
+      <County code="27" name="筠连县" />
+      <County code="28" name="兴文县" />
+      <County code="29" name="屏山县" />
+    </City>
+    <City code="16" name="广安市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="广安区" />
+      <County code="21" name="岳池县" />
+      <County code="22" name="武胜县" />
+      <County code="23" name="邻水县" />
+      <County code="81" name="华莹市" />
+    </City>
+    <City code="17" name="达州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="通川区" />
+      <County code="21" name="达县" />
+      <County code="22" name="宣汉县" />
+      <County code="23" name="开江县" />
+      <County code="24" name="大竹县" />
+      <County code="25" name="渠县" />
+      <County code="81" name="万源市" />
+    </City>
+    <City code="18" name="雅安市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="雨城区" />
+      <County code="21" name="名山县" />
+      <County code="22" name="荥经县" />
+      <County code="23" name="汉源县" />
+      <County code="24" name="石棉县" />
+      <County code="25" name="天全县" />
+      <County code="26" name="芦山县" />
+      <County code="27" name="宝兴县" />
+    </City>
+    <City code="19" name="巴中市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="巴州区" />
+      <County code="21" name="通江县" />
+      <County code="22" name="南江县" />
+      <County code="23" name="平昌县" />
+    </City>
+    <City code="20" name="资阳市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="雁江区" />
+      <County code="21" name="安岳县" />
+      <County code="22" name="乐至县" />
+      <County code="81" name="简阳市" />
+    </City>
+    <City code="32" name="阿坝藏族羌族自治州">
+      <County code="21" name="汶川县" />
+      <County code="22" name="理县" />
+      <County code="23" name="茂县" />
+      <County code="24" name="松潘县" />
+      <County code="25" name="九寨沟县" />
+      <County code="26" name="金川县" />
+      <County code="27" name="小金县" />
+      <County code="28" name="黑水县" />
+      <County code="29" name="马尔康县" />
+      <County code="30" name="壤塘县" />
+      <County code="31" name="阿坝县" />
+      <County code="32" name="若尔盖县" />
+      <County code="33" name="红原县" />
+    </City>
+    <City code="33" name="甘孜藏族自治州">
+      <County code="21" name="康定县" />
+      <County code="22" name="泸定县" />
+      <County code="23" name="丹巴县" />
+      <County code="24" name="九龙县" />
+      <County code="25" name="雅江县" />
+      <County code="26" name="道孚县" />
+      <County code="27" name="炉霍县" />
+      <County code="28" name="甘孜县" />
+      <County code="29" name="新龙县" />
+      <County code="30" name="德格县" />
+      <County code="31" name="白玉县" />
+      <County code="32" name="石渠县" />
+      <County code="33" name="色达县" />
+      <County code="34" name="理塘县" />
+      <County code="35" name="巴塘县" />
+      <County code="36" name="乡城县" />
+      <County code="37" name="稻城县" />
+      <County code="38" name="得荣县" />
+    </City>
+    <City code="34" name="凉山彝族自治州">
+      <County code="01" name="西昌市" />
+      <County code="22" name="木里藏族自治县" />
+      <County code="23" name="盐源县" />
+      <County code="24" name="德昌县" />
+      <County code="25" name="会理县" />
+      <County code="26" name="会东县" />
+      <County code="27" name="宁南县" />
+      <County code="28" name="普格县" />
+      <County code="29" name="布拖县" />
+      <County code="30" name="金阳县" />
+      <County code="31" name="昭觉县" />
+      <County code="32" name="喜德县" />
+      <County code="33" name="冕宁县" />
+      <County code="34" name="越西县" />
+      <County code="35" name="甘洛县" />
+      <County code="36" name="美姑县" />
+      <County code="37" name="雷波县" />
+    </City>
+  </Province>
+  <Province code="52" name="贵州省">
+    <City code="01" name="贵阳市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="南明区" />
+      <County code="03" name="云岩区" />
+      <County code="11" name="花溪区" />
+      <County code="12" name="乌当区" />
+      <County code="13" name="白云区" />
+      <County code="14" name="小河区" />
+      <County code="21" name="开阳县" />
+      <County code="22" name="息烽县" />
+      <County code="23" name="修文县" />
+      <County code="81" name="清镇市" />
+    </City>
+    <City code="02" name="六盘水市">
+      <County code="01" name="钟山区" />
+      <County code="03" name="六枝特区" />
+      <County code="21" name="水城县" />
+      <County code="22" name="盘县" />
+    </City>
+    <City code="03" name="遵义市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="红花岗区" />
+      <County code="03" name="汇川区" />
+      <County code="21" name="遵义县" />
+      <County code="22" name="桐梓县" />
+      <County code="23" name="绥阳县" />
+      <County code="24" name="正安县" />
+      <County code="25" name="道真仡佬族苗族自治县" />
+      <County code="26" name="务川仡佬族苗族自治县" />
+      <County code="27" name="凤冈县" />
+      <County code="28" name="湄潭县" />
+      <County code="29" name="余庆县" />
+      <County code="30" name="习水县" />
+      <County code="81" name="赤水市" />
+      <County code="82" name="仁怀市" />
+    </City>
+    <City code="04" name="安顺市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="西秀区" />
+      <County code="21" name="平坝县" />
+      <County code="22" name="普定县" />
+      <County code="23" name="镇宁布依族苗族自治县" />
+      <County code="24" name="关岭布依族苗族自治县" />
+      <County code="25" name="紫云苗族布依族自治县" />
+    </City>
+    <City code="22" name="铜仁地区">
+      <County code="01" name="铜仁市" />
+      <County code="22" name="江口县" />
+      <County code="23" name="玉屏侗族自治县" />
+      <County code="24" name="石阡县" />
+      <County code="25" name="思南县" />
+      <County code="26" name="印江土家族苗族自治县" />
+      <County code="27" name="德江县" />
+      <County code="28" name="沿河土家族自治县" />
+      <County code="29" name="松桃苗族自治县" />
+      <County code="30" name="万山特区" />
+    </City>
+    <City code="23" name="黔西南布依族苗族自治州">
+      <County code="01" name="兴义市" />
+      <County code="22" name="兴仁县" />
+      <County code="23" name="普安县" />
+      <County code="24" name="晴隆县" />
+      <County code="25" name="贞丰县" />
+      <County code="26" name="望谟县" />
+      <County code="27" name="册亨县" />
+      <County code="28" name="安龙县" />
+    </City>
+    <City code="24" name="毕节地区">
+      <County code="01" name="毕节市" />
+      <County code="22" name="大方县" />
+      <County code="23" name="黔西县" />
+      <County code="24" name="金沙县" />
+      <County code="25" name="织金县" />
+      <County code="26" name="纳雍县" />
+      <County code="27" name="威宁彝族回族苗族自治县" />
+      <County code="28" name="赫章县" />
+    </City>
+    <City code="26" name="黔东南苗族侗族自治州">
+      <County code="01" name="凯里市" />
+      <County code="22" name="黄平县" />
+      <County code="23" name="施秉县" />
+      <County code="24" name="三穗县" />
+      <County code="25" name="镇远县" />
+      <County code="26" name="岑巩县" />
+      <County code="27" name="天柱县" />
+      <County code="28" name="锦屏县" />
+      <County code="29" name="剑河县" />
+      <County code="30" name="台江县" />
+      <County code="31" name="黎平县" />
+      <County code="32" name="榕江县" />
+      <County code="33" name="从江县" />
+      <County code="34" name="雷山县" />
+      <County code="35" name="麻江县" />
+      <County code="36" name="丹寨县" />
+    </City>
+    <City code="27" name="黔南布依族苗族自治州">
+      <County code="01" name="都匀市" />
+      <County code="02" name="福泉市" />
+      <County code="22" name="荔波县" />
+      <County code="23" name="贵定县" />
+      <County code="25" name="瓮安县" />
+      <County code="26" name="独山县" />
+      <County code="27" name="平塘县" />
+      <County code="28" name="罗甸县" />
+      <County code="29" name="长顺县" />
+      <County code="30" name="龙里县" />
+      <County code="31" name="惠水县" />
+      <County code="32" name="三都水族自治县" />
+    </City>
+  </Province>
+  <Province code="53" name="云南省">
+    <City code="01" name="昆明市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="五华区" />
+      <County code="03" name="盘龙区" />
+      <County code="11" name="官渡区" />
+      <County code="12" name="西山区" />
+      <County code="13" name="东川区" />
+      <County code="21" name="呈贡县" />
+      <County code="22" name="晋宁县" />
+      <County code="24" name="富民县" />
+      <County code="25" name="宜良县" />
+      <County code="26" name="石林彝族自治县" />
+      <County code="27" name="嵩明县" />
+      <County code="28" name="禄劝彝族苗族自治县" />
+      <County code="29" name="寻甸回族彝族自治县" />
+      <County code="81" name="安宁市" />
+    </City>
+    <City code="03" name="曲靖市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="麒麟区" />
+      <County code="21" name="马龙县" />
+      <County code="22" name="陆良县" />
+      <County code="23" name="师宗县" />
+      <County code="24" name="罗平县" />
+      <County code="25" name="富源县" />
+      <County code="26" name="会泽县" />
+      <County code="28" name="沾益县" />
+      <County code="81" name="宣威市" />
+    </City>
+    <City code="04" name="玉溪市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="红塔区" />
+      <County code="21" name="江川县" />
+      <County code="22" name="澄江县" />
+      <County code="23" name="通海县" />
+      <County code="24" name="华宁县" />
+      <County code="25" name="易门县" />
+      <County code="26" name="峨山彝族自治县" />
+      <County code="27" name="新平彝族傣族自治县" />
+      <County code="28" name="元江哈尼族彝族傣族自治县" />
+    </City>
+    <City code="05" name="保山市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="隆阳区" />
+      <County code="21" name="施甸县" />
+      <County code="22" name="腾冲县" />
+      <County code="23" name="龙陵县" />
+      <County code="24" name="昌宁县" />
+    </City>
+    <City code="06" name="昭通市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="昭阳区" />
+      <County code="21" name="鲁甸县" />
+      <County code="22" name="巧家县" />
+      <County code="23" name="盐津县" />
+      <County code="24" name="大关县" />
+      <County code="25" name="永善县" />
+      <County code="26" name="绥江县" />
+      <County code="27" name="镇雄县" />
+      <County code="28" name="彝良县" />
+      <County code="29" name="威信县" />
+      <County code="30" name="水富县" />
+    </City>
+    <City code="07" name="丽江市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="古城区" />
+      <County code="21" name="玉龙纳西族自治县" />
+      <County code="22" name="永胜县" />
+      <County code="23" name="华坪县" />
+      <County code="24" name="宁蒗彝族自治县" />
+    </City>
+    <City code="08" name="思茅市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="翠云区" />
+      <County code="21" name="普洱哈尼族彝族自治县" />
+      <County code="22" name="墨江哈尼族自治县" />
+      <County code="23" name="景东彝族自治县" />
+      <County code="24" name="景谷傣族彝族自治县" />
+      <County code="25" name="镇沅彝族哈尼族拉祜族自治" />
+      <County code="26" name="江城哈尼族彝族自治县" />
+      <County code="27" name="孟连傣族拉祜族佤族自治县" />
+      <County code="28" name="澜沧拉祜族自治县" />
+      <County code="29" name="西盟佤族自治县" />
+    </City>
+    <City code="09" name="临沧市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="临翔区" />
+      <County code="21" name="凤庆县" />
+      <County code="22" name="云县" />
+      <County code="23" name="永德县" />
+      <County code="24" name="镇康县" />
+      <County code="25" name="双江拉祜族佤族布朗族傣族" />
+      <County code="26" name="耿马傣族佤族自治县" />
+      <County code="27" name="沧源佤族自治县" />
+    </City>
+    <City code="23" name="楚雄彝族自治州">
+      <County code="01" name="楚雄市" />
+      <County code="22" name="双柏县" />
+      <County code="23" name="牟定县" />
+      <County code="24" name="南华县" />
+      <County code="25" name="姚安县" />
+      <County code="26" name="大姚县" />
+      <County code="27" name="永仁县" />
+      <County code="28" name="元谋县" />
+      <County code="29" name="武定县" />
+      <County code="31" name="禄丰县" />
+    </City>
+    <City code="25" name="红河哈尼族彝族自治州">
+      <County code="01" name="个旧市" />
+      <County code="02" name="开远市" />
+      <County code="22" name="蒙自县" />
+      <County code="23" name="屏边苗族自治县" />
+      <County code="24" name="建水县" />
+      <County code="25" name="石屏县" />
+      <County code="26" name="弥勒县" />
+      <County code="27" name="泸西县" />
+      <County code="28" name="元阳县" />
+      <County code="29" name="红河县" />
+      <County code="30" name="金平苗族瑶族傣族自治县" />
+      <County code="31" name="绿春县" />
+      <County code="32" name="河口瑶族自治县" />
+    </City>
+    <City code="26" name="文山壮族苗族自治州">
+      <County code="21" name="文山县" />
+      <County code="22" name="砚山县" />
+      <County code="23" name="西畴县" />
+      <County code="24" name="麻栗坡县" />
+      <County code="25" name="马关县" />
+      <County code="26" name="丘北县" />
+      <County code="27" name="广南县" />
+      <County code="28" name="富宁县" />
+    </City>
+    <City code="28" name="西双版纳傣族自治州">
+      <County code="01" name="景洪市" />
+      <County code="22" name="勐海县" />
+      <County code="23" name="勐腊县" />
+    </City>
+    <City code="29" name="大理白族自治州">
+      <County code="01" name="大理市" />
+      <County code="22" name="漾濞彝族自治县" />
+      <County code="23" name="祥云县" />
+      <County code="24" name="宾川县" />
+      <County code="25" name="弥渡县" />
+      <County code="26" name="南涧彝族自治县" />
+      <County code="27" name="巍山彝族回族自治县" />
+      <County code="28" name="永平县" />
+      <County code="29" name="云龙县" />
+      <County code="30" name="洱源县" />
+      <County code="31" name="剑川县" />
+      <County code="32" name="鹤庆县" />
+    </City>
+    <City code="31" name="德宏傣族景颇族自治州">
+      <County code="02" name="瑞丽市" />
+      <County code="03" name="潞西市" />
+      <County code="22" name="梁河县" />
+      <County code="23" name="盈江县" />
+      <County code="24" name="陇川县" />
+    </City>
+    <City code="33" name="怒江傈僳族自治州">
+      <County code="21" name="泸水县" />
+      <County code="23" name="福贡县" />
+      <County code="24" name="贡山独龙族怒族自治县" />
+      <County code="25" name="兰坪白族普米族自治县" />
+    </City>
+    <City code="34" name="迪庆藏族自治州">
+      <County code="21" name="香格里拉县" />
+      <County code="22" name="德钦县" />
+      <County code="23" name="维西傈僳族自治县" />
+    </City>
+  </Province>
+  <Province code="54" name="西藏自治区">
+    <City code="01" name="拉萨市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="城关区" />
+      <County code="21" name="林周县" />
+      <County code="22" name="当雄县" />
+      <County code="23" name="尼木县" />
+      <County code="24" name="曲水县" />
+      <County code="25" name="堆龙德庆县" />
+      <County code="26" name="达孜县" />
+      <County code="27" name="墨竹工卡县" />
+    </City>
+    <City code="21" name="昌都地区">
+      <County code="21" name="昌都县" />
+      <County code="22" name="江达县" />
+      <County code="23" name="贡觉县" />
+      <County code="24" name="类乌齐县" />
+      <County code="25" name="丁青县" />
+      <County code="26" name="察雅县" />
+      <County code="27" name="八宿县" />
+      <County code="28" name="左贡县" />
+      <County code="29" name="芒康县" />
+      <County code="32" name="洛隆县" />
+      <County code="33" name="边坝县" />
+    </City>
+    <City code="22" name="山南地区">
+      <County code="21" name="乃东县" />
+      <County code="22" name="扎囊县" />
+      <County code="23" name="贡嘎县" />
+      <County code="24" name="桑日县" />
+      <County code="25" name="琼结县" />
+      <County code="26" name="曲松县" />
+      <County code="27" name="措美县" />
+      <County code="28" name="洛扎县" />
+      <County code="29" name="加查县" />
+      <County code="31" name="隆子县" />
+      <County code="32" name="错那县" />
+      <County code="33" name="浪卡子县" />
+    </City>
+    <City code="23" name="日喀则地区">
+      <County code="01" name="日喀则市" />
+      <County code="22" name="南木林县" />
+      <County code="23" name="江孜县" />
+      <County code="24" name="定日县" />
+      <County code="25" name="萨迦县" />
+      <County code="26" name="拉孜县" />
+      <County code="27" name="昂仁县" />
+      <County code="28" name="谢通门县" />
+      <County code="29" name="白朗县" />
+      <County code="30" name="仁布县" />
+      <County code="31" name="康马县" />
+      <County code="32" name="定结县" />
+      <County code="33" name="仲巴县" />
+      <County code="34" name="亚东县" />
+      <County code="35" name="吉隆县" />
+      <County code="36" name="聂拉木县" />
+      <County code="37" name="萨嘎县" />
+      <County code="38" name="岗巴县" />
+    </City>
+    <City code="24" name="那曲地区">
+      <County code="21" name="那曲县" />
+      <County code="22" name="嘉黎县" />
+      <County code="23" name="比如县" />
+      <County code="24" name="聂荣县" />
+      <County code="25" name="安多县" />
+      <County code="26" name="申扎县" />
+      <County code="27" name="索县" />
+      <County code="28" name="班戈县" />
+      <County code="29" name="巴青县" />
+      <County code="30" name="尼玛县" />
+    </City>
+    <City code="25" name="阿里地区">
+      <County code="21" name="普兰县" />
+      <County code="22" name="札达县" />
+      <County code="23" name="噶尔县" />
+      <County code="24" name="日土县" />
+      <County code="25" name="革吉县" />
+      <County code="26" name="改则县" />
+      <County code="27" name="措勤县" />
+    </City>
+    <City code="26" name="林芝地区">
+      <County code="21" name="林芝县" />
+      <County code="22" name="工布江达县" />
+      <County code="23" name="米林县" />
+      <County code="24" name="墨脱县" />
+      <County code="25" name="波密县" />
+      <County code="26" name="察隅县" />
+      <County code="27" name="朗县" />
+    </City>
+  </Province>
+  <Province code="61" name="陕西省">
+    <City code="01" name="西安市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="新城区" />
+      <County code="03" name="碑林区" />
+      <County code="04" name="莲湖区" />
+      <County code="11" name="灞桥区" />
+      <County code="12" name="未央区" />
+      <County code="13" name="雁塔区" />
+      <County code="14" name="阎良区" />
+      <County code="15" name="临潼区" />
+      <County code="16" name="长安区" />
+      <County code="22" name="蓝田县" />
+      <County code="24" name="周至县" />
+      <County code="25" name="户县" />
+      <County code="26" name="高陵县" />
+    </City>
+    <City code="02" name="铜川市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="王益区" />
+      <County code="03" name="印台区" />
+      <County code="04" name="耀州区" />
+      <County code="22" name="宜君县" />
+    </City>
+    <City code="03" name="宝鸡市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="渭滨区" />
+      <County code="03" name="金台区" />
+      <County code="04" name="陈仓区" />
+      <County code="22" name="凤翔县" />
+      <County code="23" name="岐山县" />
+      <County code="24" name="扶风县" />
+      <County code="26" name="眉县" />
+      <County code="27" name="陇县" />
+      <County code="28" name="千阳县" />
+      <County code="29" name="麟游县" />
+      <County code="30" name="凤县" />
+      <County code="31" name="太白县" />
+    </City>
+    <City code="04" name="咸阳市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="秦都区" />
+      <County code="03" name="杨凌区" />
+      <County code="04" name="渭城区" />
+      <County code="22" name="三原县" />
+      <County code="23" name="泾阳县" />
+      <County code="24" name="乾县" />
+      <County code="25" name="礼泉县" />
+      <County code="26" name="永寿县" />
+      <County code="27" name="彬县" />
+      <County code="28" name="长武县" />
+      <County code="29" name="旬邑县" />
+      <County code="30" name="淳化县" />
+      <County code="31" name="武功县" />
+      <County code="81" name="兴平市" />
+    </City>
+    <City code="05" name="渭南市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="临渭区" />
+      <County code="21" name="华县" />
+      <County code="22" name="潼关县" />
+      <County code="23" name="大荔县" />
+      <County code="24" name="合阳县" />
+      <County code="25" name="澄城县" />
+      <County code="26" name="蒲城县" />
+      <County code="27" name="白水县" />
+      <County code="28" name="富平县" />
+      <County code="81" name="韩城市" />
+      <County code="82" name="华阴市" />
+    </City>
+    <City code="06" name="延安市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="宝塔区" />
+      <County code="21" name="延长县" />
+      <County code="22" name="延川县" />
+      <County code="23" name="子长县" />
+      <County code="24" name="安塞县" />
+      <County code="25" name="志丹县" />
+      <County code="26" name="吴旗县" />
+      <County code="27" name="甘泉县" />
+      <County code="28" name="富县" />
+      <County code="29" name="洛川县" />
+      <County code="30" name="宜川县" />
+      <County code="31" name="黄龙县" />
+      <County code="32" name="黄陵县" />
+    </City>
+    <City code="07" name="汉中市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="汉台区" />
+      <County code="21" name="南郑县" />
+      <County code="22" name="城固县" />
+      <County code="23" name="洋县" />
+      <County code="24" name="西乡县" />
+      <County code="25" name="勉县" />
+      <County code="26" name="宁强县" />
+      <County code="27" name="略阳县" />
+      <County code="28" name="镇巴县" />
+      <County code="29" name="留坝县" />
+      <County code="30" name="佛坪县" />
+    </City>
+    <City code="08" name="榆林市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="榆阳区" />
+      <County code="21" name="神木县" />
+      <County code="22" name="府谷县" />
+      <County code="23" name="横山县" />
+      <County code="24" name="靖边县" />
+      <County code="25" name="定边县" />
+      <County code="26" name="绥德县" />
+      <County code="27" name="米脂县" />
+      <County code="28" name="佳县" />
+      <County code="29" name="吴堡县" />
+      <County code="30" name="清涧县" />
+      <County code="31" name="子洲县" />
+    </City>
+    <City code="09" name="安康市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="汉滨区" />
+      <County code="21" name="汉阴县" />
+      <County code="22" name="石泉县" />
+      <County code="23" name="宁陕县" />
+      <County code="24" name="紫阳县" />
+      <County code="25" name="岚皋县" />
+      <County code="26" name="平利县" />
+      <County code="27" name="镇坪县" />
+      <County code="28" name="旬阳县" />
+      <County code="29" name="白河县" />
+    </City>
+    <City code="10" name="商洛市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="商州区" />
+      <County code="21" name="洛南县" />
+      <County code="22" name="丹凤县" />
+      <County code="23" name="商南县" />
+      <County code="24" name="山阳县" />
+      <County code="25" name="镇安县" />
+      <County code="26" name="柞水县" />
+    </City>
+  </Province>
+  <Province code="62" name="甘肃省">
+    <City code="01" name="兰州市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="城关区" />
+      <County code="03" name="七里河区" />
+      <County code="04" name="西固区" />
+      <County code="05" name="安宁区" />
+      <County code="11" name="红古区" />
+      <County code="21" name="永登县" />
+      <County code="22" name="皋兰县" />
+      <County code="23" name="榆中县" />
+    </City>
+    <City code="02" name="嘉峪关市">
+      <County code="01" name="市辖区" />
+    </City>
+    <City code="03" name="金昌市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="金川区" />
+      <County code="21" name="永昌县" />
+    </City>
+    <City code="04" name="白银市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="白银区" />
+      <County code="03" name="平川区" />
+      <County code="21" name="靖远县" />
+      <County code="22" name="会宁县" />
+      <County code="23" name="景泰县" />
+    </City>
+    <City code="05" name="天水市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="秦城区" />
+      <County code="03" name="北道区" />
+      <County code="21" name="清水县" />
+      <County code="22" name="秦安县" />
+      <County code="23" name="甘谷县" />
+      <County code="24" name="武山县" />
+      <County code="25" name="张家川回族自治县" />
+    </City>
+    <City code="06" name="武威市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="凉州区" />
+      <County code="21" name="民勤县" />
+      <County code="22" name="古浪县" />
+      <County code="23" name="天祝藏族自治县" />
+    </City>
+    <City code="07" name="张掖市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="甘州区" />
+      <County code="21" name="肃南裕固族自治县" />
+      <County code="22" name="民乐县" />
+      <County code="23" name="临泽县" />
+      <County code="24" name="高台县" />
+      <County code="25" name="山丹县" />
+    </City>
+    <City code="08" name="平凉市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="崆峒区" />
+      <County code="21" name="泾川县" />
+      <County code="22" name="灵台县" />
+      <County code="23" name="崇信县" />
+      <County code="24" name="华亭县" />
+      <County code="25" name="庄浪县" />
+      <County code="26" name="静宁县" />
+    </City>
+    <City code="09" name="酒泉市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="肃州区" />
+      <County code="21" name="金塔县" />
+      <County code="22" name="安西县" />
+      <County code="23" name="肃北蒙古族自治县" />
+      <County code="24" name="阿克塞哈萨克族自治县" />
+      <County code="81" name="玉门市" />
+      <County code="82" name="敦煌市" />
+    </City>
+    <City code="10" name="庆阳市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="西峰区" />
+      <County code="21" name="庆城县" />
+      <County code="22" name="环县" />
+      <County code="23" name="华池县" />
+      <County code="24" name="合水县" />
+      <County code="25" name="正宁县" />
+      <County code="26" name="宁县" />
+      <County code="27" name="镇原县" />
+    </City>
+    <City code="11" name="定西市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="安定区" />
+      <County code="21" name="通渭县" />
+      <County code="22" name="陇西县" />
+      <County code="23" name="渭源县" />
+      <County code="24" name="临洮县" />
+      <County code="25" name="漳县" />
+      <County code="26" name="岷县" />
+    </City>
+    <City code="12" name="陇南市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="武都区" />
+      <County code="21" name="成县" />
+      <County code="22" name="文县" />
+      <County code="23" name="宕昌县" />
+      <County code="24" name="康县" />
+      <County code="25" name="西和县" />
+      <County code="26" name="礼县" />
+      <County code="27" name="徽县" />
+      <County code="28" name="两当县" />
+    </City>
+    <City code="29" name="临夏回族自治州">
+      <County code="01" name="临夏市" />
+      <County code="21" name="临夏县" />
+      <County code="22" name="康乐县" />
+      <County code="23" name="永靖县" />
+      <County code="24" name="广河县" />
+      <County code="25" name="和政县" />
+      <County code="26" name="东乡族自治县" />
+      <County code="27" name="积石山保安族东乡族撒拉族" />
+    </City>
+    <City code="30" name="甘南藏族自治州">
+      <County code="01" name="合作市" />
+      <County code="21" name="临潭县" />
+      <County code="22" name="卓尼县" />
+      <County code="23" name="舟曲县" />
+      <County code="24" name="迭部县" />
+      <County code="25" name="玛曲县" />
+      <County code="26" name="碌曲县" />
+      <County code="27" name="夏河县" />
+    </City>
+  </Province>
+  <Province code="63" name="青海省">
+    <City code="01" name="西宁市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="城东区" />
+      <County code="03" name="城中区" />
+      <County code="04" name="城西区" />
+      <County code="05" name="城北区" />
+      <County code="21" name="大通回族土族自治县" />
+      <County code="22" name="湟中县" />
+      <County code="23" name="湟源县" />
+    </City>
+    <City code="21" name="海东地区">
+      <County code="21" name="平安县" />
+      <County code="22" name="民和回族土族自治县" />
+      <County code="23" name="乐都县" />
+      <County code="26" name="互助土族自治县" />
+      <County code="27" name="化隆回族自治县" />
+      <County code="28" name="循化撒拉族自治县" />
+    </City>
+    <City code="22" name="海北藏族自治州">
+      <County code="21" name="门源回族自治县" />
+      <County code="22" name="祁连县" />
+      <County code="23" name="海晏县" />
+      <County code="24" name="刚察县" />
+    </City>
+    <City code="23" name="黄南藏族自治州">
+      <County code="21" name="同仁县" />
+      <County code="22" name="尖扎县" />
+      <County code="23" name="泽库县" />
+      <County code="24" name="河南蒙古族自治县" />
+    </City>
+    <City code="25" name="海南藏族自治州">
+      <County code="21" name="共和县" />
+      <County code="22" name="同德县" />
+      <County code="23" name="贵德县" />
+      <County code="24" name="兴海县" />
+      <County code="25" name="贵南县" />
+    </City>
+    <City code="26" name="果洛藏族自治州">
+      <County code="21" name="玛沁县" />
+      <County code="22" name="班玛县" />
+      <County code="23" name="甘德县" />
+      <County code="24" name="达日县" />
+      <County code="25" name="久治县" />
+      <County code="26" name="玛多县" />
+    </City>
+    <City code="27" name="玉树藏族自治州">
+      <County code="21" name="玉树县" />
+      <County code="22" name="杂多县" />
+      <County code="23" name="称多县" />
+      <County code="24" name="治多县" />
+      <County code="25" name="囊谦县" />
+      <County code="26" name="曲麻莱县" />
+    </City>
+    <City code="28" name="海西蒙古族藏族自治州">
+      <County code="01" name="格尔木市" />
+      <County code="02" name="德令哈市" />
+      <County code="21" name="乌兰县" />
+      <County code="22" name="都兰县" />
+      <County code="23" name="天峻县" />
+    </City>
+  </Province>
+  <Province code="64" name="宁夏回族自治区">
+    <City code="01" name="银川市">
+      <County code="01" name="市辖区" />
+      <County code="04" name="兴庆区" />
+      <County code="05" name="西夏区" />
+      <County code="06" name="金凤区" />
+      <County code="21" name="永宁县" />
+      <County code="22" name="贺兰县" />
+      <County code="81" name="灵武市" />
+    </City>
+    <City code="02" name="石嘴山市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="大武口区" />
+      <County code="05" name="惠农区" />
+      <County code="21" name="平罗县" />
+    </City>
+    <City code="03" name="吴忠市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="利通区" />
+      <County code="23" name="盐池县" />
+      <County code="24" name="同心县" />
+      <County code="81" name="青铜峡市" />
+    </City>
+    <City code="04" name="固原市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="原州区" />
+      <County code="22" name="西吉县" />
+      <County code="23" name="隆德县" />
+      <County code="24" name="泾源县" />
+      <County code="25" name="彭阳县" />
+    </City>
+    <City code="05" name="中卫市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="沙坡头区" />
+      <County code="21" name="中宁县" />
+      <County code="22" name="海原县" />
+    </City>
+  </Province>
+  <Province code="65" name="新疆维吾尔自治区">
+    <City code="01" name="乌鲁木齐市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="天山区" />
+      <County code="03" name="沙依巴克区" />
+      <County code="04" name="新市区" />
+      <County code="05" name="水磨沟区" />
+      <County code="06" name="头屯河区" />
+      <County code="07" name="达坂城区" />
+      <County code="08" name="东山区" />
+      <County code="21" name="乌鲁木齐县" />
+    </City>
+    <City code="02" name="克拉玛依市">
+      <County code="01" name="市辖区" />
+      <County code="02" name="独山子区" />
+      <County code="03" name="克拉玛依区" />
+      <County code="04" name="白碱滩区" />
+      <County code="05" name="乌尔禾区" />
+    </City>
+    <City code="21" name="克拉玛依市吐鲁番地区">
+      <County code="01" name="吐鲁番市" />
+      <County code="22" name="鄯善县" />
+      <County code="23" name="托克逊县" />
+    </City>
+    <City code="22" name="哈密地区">
+      <County code="01" name="哈密市" />
+      <County code="22" name="巴里坤哈萨克自治县" />
+      <County code="23" name="伊吾县" />
+    </City>
+    <City code="23" name="昌吉回族自治州">
+      <County code="01" name="昌吉市" />
+      <County code="02" name="阜康市" />
+      <County code="03" name="米泉市" />
+      <County code="23" name="呼图壁县" />
+      <County code="24" name="玛纳斯县" />
+      <County code="25" name="奇台县" />
+      <County code="27" name="吉木萨尔县" />
+      <County code="28" name="木垒哈萨克自治县" />
+    </City>
+    <City code="27" name="博尔塔拉蒙古自治州">
+      <County code="01" name="博乐市" />
+      <County code="22" name="精河县" />
+      <County code="23" name="温泉县" />
+    </City>
+    <City code="28" name="巴音郭楞蒙古自治州">
+      <County code="01" name="库尔勒市" />
+      <County code="22" name="轮台县" />
+      <County code="23" name="尉犁县" />
+      <County code="24" name="若羌县" />
+      <County code="25" name="且末县" />
+      <County code="26" name="焉耆回族自治县" />
+      <County code="27" name="和静县" />
+      <County code="28" name="和硕县" />
+      <County code="29" name="博湖县" />
+    </City>
+    <City code="29" name="阿克苏地区">
+      <County code="01" name="阿克苏市" />
+      <County code="22" name="温宿县" />
+      <County code="23" name="库车县" />
+      <County code="24" name="沙雅县" />
+      <County code="25" name="新和县" />
+      <County code="26" name="拜城县" />
+      <County code="27" name="乌什县" />
+      <County code="28" name="阿瓦提县" />
+      <County code="29" name="柯坪县" />
+    </City>
+    <City code="30" name="克孜勒苏柯尔克孜自治州">
+      <County code="01" name="阿图什市" />
+      <County code="22" name="阿克陶县" />
+      <County code="23" name="阿合奇县" />
+      <County code="24" name="乌恰县" />
+    </City>
+    <City code="31" name="喀什地区">
+      <County code="01" name="喀什市" />
+      <County code="21" name="疏附县" />
+      <County code="22" name="疏勒县" />
+      <County code="23" name="英吉沙县" />
+      <County code="24" name="泽普县" />
+      <County code="25" name="莎车县" />
+      <County code="26" name="叶城县" />
+      <County code="27" name="麦盖提县" />
+      <County code="28" name="岳普湖县" />
+      <County code="29" name="伽师县" />
+      <County code="30" name="巴楚县" />
+      <County code="31" name="塔什库尔干塔吉克自治县" />
+    </City>
+    <City code="32" name="和田地区">
+      <County code="01" name="和田市" />
+      <County code="21" name="和田县" />
+      <County code="22" name="墨玉县" />
+      <County code="23" name="皮山县" />
+      <County code="24" name="洛浦县" />
+      <County code="25" name="策勒县" />
+      <County code="26" name="于田县" />
+      <County code="27" name="民丰县" />
+    </City>
+    <City code="40" name="伊犁哈萨克自治州">
+      <County code="02" name="伊宁市" />
+      <County code="03" name="奎屯市" />
+      <County code="21" name="伊宁县" />
+      <County code="22" name="察布查尔锡伯自治县" />
+      <County code="23" name="霍城县" />
+      <County code="24" name="巩留县" />
+      <County code="25" name="新源县" />
+      <County code="26" name="昭苏县" />
+      <County code="27" name="特克斯县" />
+      <County code="28" name="尼勒克县" />
+    </City>
+    <City code="42" name="塔城地区">
+      <County code="01" name="塔城市" />
+      <County code="02" name="乌苏市" />
+      <County code="21" name="额敏县" />
+      <County code="23" name="沙湾县" />
+      <County code="24" name="托里县" />
+      <County code="25" name="裕民县" />
+      <County code="26" name="和布克赛尔蒙古自治县" />
+    </City>
+    <City code="43" name="阿勒泰地区">
+      <County code="01" name="阿勒泰市" />
+      <County code="21" name="布尔津县" />
+      <County code="22" name="富蕴县" />
+      <County code="23" name="福海县" />
+      <County code="24" name="哈巴河县" />
+      <County code="25" name="青河县" />
+      <County code="26" name="吉木乃县" />
+    </City>
+    <City code="90" name="省直辖行政单位">
+      <County code="01" name="石河子市" />
+      <County code="02" name="阿拉尔市" />
+      <County code="03" name="图木舒克市" />
+      <County code="04" name="五家渠市" />
+    </City>
+  </Province>
+</AreaCode>

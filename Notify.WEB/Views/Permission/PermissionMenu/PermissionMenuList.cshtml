@@ -1,0 +1,25 @@
+﻿@model Guid
+@section Header
+{
+    <link href="~/Content/Scripts/tools/zTree_v3/css/zTreeStyle/zTreeStyle.css" rel="stylesheet" />
+    <script src="~/Content/Scripts/tools/zTree_v3/js/jquery.ztree.core-3.5.js"></script>
+    <script src="~/Content/Scripts/tools/zTree_v3/js/jquery.ztree.excheck-3.5.js"></script>
+    <script src="~/Content/Scripts/tools/zTree_v3/js/jquery.ztree.exedit-3.5.js"></script>
+    <link href="~/Content/Css/Permission/Menu/MenuList.css" rel="stylesheet" />
+    <script src="~/Content/Scripts/views/Permission/PermissionMenu/PermissionMenuList.js"></script>
+}
+
+<div class="content_wrap">
+    <div style="width: 30%; height: 500px;">
+        <div class="easyui-panel" title="@ViewBag.RoleName" style="width: 100%; height: 500px;">
+            <ul id="tree" class="ztree"></ul>
+        </div>
+    </div>
+    <br />
+    <div style="text-align: center; width: 30%; height: 100px;">
+        <input type="hidden" id="hidRoleId" value="@Model" />
+        <a id="btnSave" href="javascript:void();" class="easyui-linkbutton" data-options="iconCls:'icon-ok'">保存数据</a>
+        &nbsp;&nbsp;
+        <a id="btnGoBack" href="@Url.Action("RoleList","Role")" class="easyui-linkbutton" data-options="iconCls:'icon-back'">立即返回</a>
+    </div>
+</div>

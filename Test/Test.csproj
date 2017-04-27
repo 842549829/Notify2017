@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{24A86B9D-403A-4FFF-A3A3-78EC4678CDD9}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Test</RootNamespace>
+    <AssemblyName>Test</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Participles.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="框架文档.docx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Notify.Code\Notify.Code.csproj">
+      <Project>{66fbe572-2634-4209-a330-6d17bcbe5d75}</Project>
+      <Name>Notify.Code</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Notify.DbCommon\Notify.DbCommon.csproj">
+      <Project>{639500c4-7c4c-403c-980f-da269d7243f7}</Project>
+      <Name>Notify.DbCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Notify.Domain\Notify.Domain.csproj">
+      <Project>{1d822d76-7d6e-4d97-b14c-c8eb8da20c02}</Project>
+      <Name>Notify.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Notify.IDbFactory\Notify.IDbFactory.csproj">
+      <Project>{4cd99fdf-59eb-4dfa-aa9a-cebdc572ac3f}</Project>
+      <Name>Notify.IDbFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Notify.Infrastructure\Notify.Infrastructure.csproj">
+      <Project>{b69993b5-0b02-41d5-a844-91033c0cd88f}</Project>
+      <Name>Notify.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Notify.IRepository\Notify.IRepository.csproj">
+      <Project>{d54a535b-46db-4716-a229-f1f73bb7e1c7}</Project>
+      <Name>Notify.IRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Notify.Mail\Notify.Mail.csproj">
+      <Project>{9792365A-FF7A-4EAD-A1AB-8A1EECDF5E25}</Project>
+      <Name>Notify.Mail</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Notify.Model\Notify.Model.csproj">
+      <Project>{519a8659-b7ea-4b39-8578-3800ac7cf575}</Project>
+      <Name>Notify.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Notify.MysqlDbFactory\Notify.MysqlDbFactory.csproj">
+      <Project>{8373e596-84d6-455b-9970-944371c30749}</Project>
+      <Name>Notify.MysqlDbFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Notify.Repository\Notify.Repository.csproj">
+      <Project>{8c5500d4-6f60-4466-8e19-228c760826e1}</Project>
+      <Name>Notify.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Notify.Service\Notify.Service.csproj">
+      <Project>{CED17A0B-876C-4D39-A01F-65FAE5B99592}</Project>
+      <Name>Notify.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Notify.SqlServerDbFactory\Notify.SqlServerDbFactory.csproj">
+      <Project>{84d401e0-e423-477f-9fda-d1acbe907cac}</Project>
+      <Name>Notify.SqlServerDbFactory</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

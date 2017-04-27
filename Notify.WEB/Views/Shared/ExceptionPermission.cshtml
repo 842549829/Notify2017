@@ -1,0 +1,31 @@
+﻿@model string
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>系统错误</title>
+    <style type="text/css">
+        .error500 {
+            width: 411px;
+            height: 411px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-top: -205px;
+            margin-left: -205px;
+        }
+    </style>
+    <script type="text/javascript">
+        if (window.top != window.self) {
+            window.top.location = window.location;
+        }
+    </script>
+</head>
+<body>
+    <input type="hidden"  value="@Model"/>
+    <div class="error500">
+        <img src="~/Content/Images/500.png" width="411" height="411" alt="500 服务器出现了错误" />
+    </div>
+</body>
+</html>

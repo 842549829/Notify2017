@@ -1,0 +1,90 @@
+﻿<div class="wrapper wrapper-content  animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>菜单 <small>菜单栏目</small></h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <ul id="tree" class="ztree"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>菜单 <small>菜单维护</small></h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">名称：</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="txtMenuName" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">URL：</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="txtMenuUrl"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">序号：</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="txtMenuSort"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">图标：</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="txtMenuIcon"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">描述：</label>
+                            <div class="col-sm-8">
+                                <textarea id="txtMenuDescription" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-3 col-sm-8">
+                                <input type="hidden" id="hidParnetId" value="" />
+                                <input type="hidden" id="hidOperationType" value="Add" />
+                                <input type="hidden" id="hidMenuId" value="" />
+                                <a id="btnEditMenu" href="javascript:void()" class="btn btn-w-m btn-info">保存数据</a>
+                                &nbsp;&nbsp;
+                                <a id="btClearMenu" href="javascript:void()" class="btn btn-w-m btn-white">清空数据</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Footer
+{
+    <link href="~/Content/Scripts/tools/zTree_v3/css/zTreeStyle/zTreeStyle.css" rel="stylesheet" />
+    <link href="~/Content/Css/Permission/Menu/MenuList.css" rel="stylesheet"/>
+    <script src="~/Content/Scripts/tools/zTree_v3/js/jquery.ztree.core-3.5.js"></script>
+    <script src="~/Content/Scripts/tools/zTree_v3/js/jquery.ztree.excheck-3.5.js"></script>
+    <script src="~/Content/Scripts/tools/zTree_v3/js/jquery.ztree.exedit-3.5.js"></script>
+    <script src="~/Content/Scripts/views/Permission/Menu/MenuList.js"></script>
+}

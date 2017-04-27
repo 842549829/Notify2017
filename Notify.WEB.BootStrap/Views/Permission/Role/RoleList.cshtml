@@ -1,0 +1,124 @@
+﻿@using MvcPager
+@using Common.Extension
+@using Common.Code
+@using Notify.Model.Transfer
+@model ViewModel<TRoleCondition, PagedList<TRole>>
+@{
+    var condition = Model.Condition;
+    var data = Model.Data;
+}
+@section Header{
+    <link href="~/Content/Css/pagination.css" rel="stylesheet" />
+}
+<div class="row">
+    <div class="col-sm-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>角色中心</h5>
+            </div>
+
+            <div class="ibox-content">
+                <div class="row">
+                    @using (Html.BeginForm("RoleList", "Role", FormMethod.Get, new { id = "searchForm" }))
+                    {
+                        <div class="col-sm-4 m-b-xs">
+                            <label class="col-sm-2 control-label text-right">名称</label>
+                            <div class="col-sm-10">
+                                <input class="input-sm form-control" type="text" name="RoleName" value="@condition.RoleName" />
+                            </div>
+                        </div>
+                        <div class="col-sm-4 m-b-xs">
+                            <label class="col-sm-2 control-label text-right">描述</label>
+                            <div class="col-sm-10">
+                                <input class="input-sm form-control" type="text" name="RoleDescription" value="@condition.RoleDescription" />
+                            </div>
+                        </div>
+                        <div class="col-sm-2 m-b-xs">
+                            <button type="submit" id="btnSubmit" class="btn btn-sm btn-primary">
+                                <i class="glyphicon glyphicon-zoom-in"></i>
+                                搜索
+                            </button>
+                            <a id="btnAddRole" href="javascript:void(0)" class="btn btn-sm btn-success" onclick="addRole()">
+                                <i class="glyphicon glyphicon-plus-sign"></i>
+                                添加
+                            </a>
+                        </div>
+                    }
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>名称</th>
+                                <th>描述</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @if (data == null || !data.Any())
+                            {
+                                <tr>
+                                    <td colspan="18" style="text-align: center;">暂无数据</td>
+                                </tr>
+                            }
+                            else
+                            {
+                                foreach (var item in data)
+                                {
+                                    <tr>
+                                        <td>@item.Id</td>
+                                        <td>@item.RoleName</td>
+                                        <td>@item.RoleDescription</td>
+                                        <td>
+                                            @{
+                                                var serializeObject = item.SerializeObject();
+                                            }
+                                            <a href="@Url.Action("PermissionMenuList", "PermissionMenu", new {roleId = item.Id, roleName = item.RoleName})"><i class="glyphicon glyphicon-user text-navy"></i>权限</a>
+                                            <a href="javascript:void(0)" data="@serializeObject" onclick="updateRole(this)"><i class="glyphicon glyphicon-pencil text-navy"></i>修改</a>
+                                            <a href="javascript:void(0)" data="@serializeObject" onclick="removeRoele(this)"><i class="glyphicon glyphicon-trash text-navy"></i>删除</a>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <div class="fixed-table-pagination" style="display: block;">
+                    @Html.Pager(data, new PagerOptions())
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--设置角色-->
+<div id="editRole" style="width: 500px; display: none;">
+    <form class="form-horizontal" style="width: 450px; margin-top:10px;">
+        <div class="form-group">
+            <label class="col-sm-3 control-label">名称：</label>
+            <div class="col-sm-8">
+                <input type="text" class="form-control" id="txtRoleName" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">描述：</label>
+            <div class="col-sm-8">
+                <textarea id="textRoleDescription" class="form-control"></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-8">
+                <input type="hidden" value="" id="hidRoleId" />
+                <a id="btnEp" class="btn btn-w-m btn-info" href="javascript:void(0)">确定</a>
+                <a id="btnCancel" class="btn btn-w-m btn-white" href="javascript:closeEditRole(0)">取消</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Footer{
+    <script src="~/Content/Scripts/views/Permission/Role/RoleList.js"></script>
+}

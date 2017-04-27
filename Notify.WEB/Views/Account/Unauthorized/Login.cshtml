@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>蓝色透明登录界面模板</title>
+    <link href="~/Content/Css/login/css/login.css" rel="stylesheet" />
+    <link href="~/Content/Css/login/css/font-awesome.min.css" rel="stylesheet"/>
+    <script src="~/Content/Scripts/tools/jquery-1.11.3.js"></script>
+    <script src="~/Content/Scripts/tools/layer-v2.0/layer/layer.js"></script>
+    <link href="~/Content/Scripts/tools/jquery-easyui-1.4.3/themes/default/easyui.css" rel="stylesheet" />
+    <link href="~/Content/Scripts/tools/jquery-easyui-1.4.3/themes/icon.css" rel="stylesheet" />
+    <script src="~/Content/Scripts/tools/jquery-easyui-1.4.3/jquery.easyui.min.js"></script>
+    <script src="~/Content/Scripts/tools/jquery-easyui-1.4.3/locale/easyui-lang-zh_CN.js"></script>
+    <script src="~/Content/Scripts/widget/common.js"></script>
+</head>
+<body>
+    <div class="main">
+
+        <div class="center">
+            <form action="" id="formOne" method="post" onsubmit="return submitB()">
+                <i class="fa fa-user Cone">  | </i>
+                <input type="text" name="uer" id="user" placeholder="用户名" onblur="checkUser()" />
+                <span id="user_pass"></span>
+                <br />
+                <i class="fa fa-key Cone">  | </i>
+                <input type="password" name="pwd" id="pwd" placeholder="密码" onblur="checkUserPwd()" />
+                <span id="pwd_pass"></span>
+                <br />
+                <i class="fa fa-folder-open Cone"> | </i>
+                    <input type="text" name="surePwd" id="surePwd" placeholder="验证码" onblur="checkUserConfirmPwd()" />
+                    <img alt="点击刷新" title="点击刷新" id="validateCode" onclick="getValidateCode()" src="@Url.Action("GetValidateCode")" />
+                <span id="surePwd_pass"></span><br />
+                <input type="submit" value="登录" id="submit" name="submit">
+                <br />
+            </form>
+        </div>
+
+    </div>
+    <script src="~/Content/Css/login/js/loginMy.js"></script>
+    <div style="text-align:center;">
+    </div>
+</body>
+</html>

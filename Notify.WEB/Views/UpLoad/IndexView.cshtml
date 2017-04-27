@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>SWFUpload</title>
+    <script src="~/Content/Scripts/tools/jquery-1.11.3.min.js"></script>
+    <script src="~/Content/Scripts/tools/json2.js"></script>
+    <script src="~/Content/Scripts/tools/swfupload/fileprogress.js"></script>
+    <script src="~/Content/Scripts/tools/swfupload/handlers.js"></script>
+    <script src="~/Content/Scripts/tools/swfupload/swfupload.js"></script>
+    <script src="~/Content/Scripts/tools/swfupload/swfupload.queue.js"></script>
+    <style>
+        .theFont {
+            width: 100px; height: 100px; border: 1px solid red;
+        }
+    </style>
+    <script type="text/javascript">
+
+        window.onload = function () {
+            var settings = {
+                upload_url: "http://192.168.10.10:32142/UpLoad/UpLoading", // 上传地址
+                flash_url: "http://192.168.10.10:32142/Content/swfupload/swfupload.swf", // 上传图片flash
+                preserve_relative_urls: false,
+                file_post_name: "fileName", // 上传文件参数名
+                file_size_limit: "100 MB", // 文件大小
+                file_types: "*.jpg;*.png;*.gif;*.bmp;*.doc;*.docx", // 文件格式
+                file_types_description: "All Files",
+                file_upload_limit: "1", //配置上传个数
+                file_queue_limit: "0",
+                custom_settings: {
+                    progressTarget: "fsUploadProgress"
+                },
+                debug: false,
+                // Button settings
+                button_image_url: "/Content/Scripts/tools/swfupload/images/TestImageNoText_65x29.png", // Relative to the Flash file
+                button_width: "65",
+                button_height: "29",
+                button_placeholder_id: "button_placeholder_id",
+                button_text: '<span class="theFont">浏览</span>',
+                button_text_style: ".theFont { font-size: 16; }",
+                button_text_left_padding: 12,
+                button_text_top_padding: 3,
+
+                // The event handler functions are defined in handlers.js
+                file_queued_handler: fileQueued,
+                file_queue_error_handler: fileQueueError,
+                //file_dialog_complete_handler: fileDialogComplete,  //立即上传
+                upload_start_handler: uploadStart,
+                upload_progress_handler: uploadProgress,
+                upload_error_handler: uploadError,
+                upload_success_handler: success,
+                upload_complete_handler: uploadComplete,
+                queue_complete_handler: queueComplete // Queue plugin event
+            };
+            var swfu = new SWFUpload(settings);
+
+            $("#button_placeholder_id_ok").click(function () {
+                if (swfu) {
+                    // swfu.setPostParams({ "key": "value" }); // 设置参数
+                    swfu.startUpload();
+                }
+            });
+        };
+
+        function success(file, serverData) {
+            try {
+                alert("返回上传图片路径:" + serverData);
+                var progress = new FileProgress(file, this.customSettings.progressTarget);
+                progress.setComplete();
+                progress.setStatus("上传成功");
+                progress.toggleCancel(false);
+
+            } catch (ex) {
+                this.debug(ex);
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="content">
+        <div class="fieldset flash" id="fsUploadProgress">
+            <span class="legend"></span>
+        </div>
+        <div id="divStatus"></div>
+        <div>
+            <input id="button_placeholder_id" type="button" value="浏览" style="margin-left: 2px; font-size: 8pt; height: 29px;" />
+            <input id="button_placeholder_id_ok" type="button" value="上传" style="margin-left: 2px; font-size: 8pt; height: 29px;" />
+        </div>
+    </div>
+</body>
+</html>

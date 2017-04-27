@@ -1,0 +1,114 @@
+﻿<div class="wrap">
+    <div class="box">
+        <div class="btn" id="dragEle"></div>
+        <div class="tips">>>拖动滑块验证<<</div>
+    </div>
+    <input type="button" value="提交验证" id="submit" />
+</div>
+
+<script src="jquery-1.11.3.js"></script>
+<style type="text/css">
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    input {
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        background: none;
+        border: none;
+    }
+
+    .wrap {
+        margin: 200px 0 0 200px;
+    }
+
+    .box {
+        position: relative;
+        width: 200px;
+        height: 30px;
+        border-radius: 20px;
+        background: #686B69;
+        line-height: 30px;
+        overflow: hidden;
+        margin-bottom: 40px;
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .btn {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 30px;
+        width: 30px;
+        background: #0c7;
+        border-radius: 20px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .tips {
+        text-align: center;
+        
+    }
+
+    #submit {
+        line-height: 28px;
+        border-radius: 3px;
+        background: #0c7;
+        width: 200px;
+        text-align: center;
+        color: #fff;
+    }
+</style>
+
+<script type="text/javascript">
+    function DragValidate(dargEle, msgEle) {
+        var dragging = false;//滑块拖动标识
+        var iX;
+        dargEle.mousedown(function (e) {
+            msgEle.text("");
+            dragging = true;
+            iX = e.clientX; //获取初始坐标
+        });
+        $(document).mousemove(function (e) {
+            if (dragging) {
+                var e = e || window.event;
+                var oX = e.clientX - iX;
+                if (oX < 30) {
+                    return false;
+                };
+                if (oX >= 210) {//容器宽度+10
+                    oX = 200;
+                    return false;
+                };
+                dargEle.width(oX + "px");
+                //console.log(oX);
+                return false;
+            };
+        });
+        $(document).mouseup(function (e) {
+            var width = dargEle.width();
+            if (width < 200) {
+                //console.log(width);
+                dargEle.width("30px");
+                msgEle.text(">>拖动滑块验证<<");
+            } else {
+                dargEle.attr("validate", "true").text("验证成功！").unbind("mousedown");
+            };
+            dragging = false;
+        });
+    };
+
+    DragValidate($("#dragEle"), $(".tips"));
+    $("#submit").click(function () {
+        if (!$("#dragEle").attr("validate")) {
+            alert("请先拖动滑块验证！");
+        } else {
+            alert("验证成功！");
+        }
+    });
+</script>

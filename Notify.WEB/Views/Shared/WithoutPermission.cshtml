@@ -1,0 +1,30 @@
+﻿@model string
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>未授权</title>
+    <style type="text/css">
+        .error404 {
+            width: 411px;
+            height: 411px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-top: -205px;
+            margin-left: -205px;
+        }
+    </style>
+    <script type="text/javascript">
+        if (window.top != window.self) {
+            window.top.location = window.location;
+        }
+    </script>
+</head>
+<body>
+    <div class="error404">
+        <img src="~/Content/Images/404.jpg" width="411" height="411" alt="404 您访问的页面不存在" />
+    </div>
+</body>
+</html>

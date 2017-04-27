@@ -1,0 +1,142 @@
+﻿@using Common.Extension
+@using MvcPager
+@model Common.Code.ViewModel<Notify.Model.Transfer.TAccountCondition, PagedList<Notify.Model.Transfer.TAccount>>
+@{
+    var condition = Model.Condition;
+    var data = Model.Data;
+}
+@section Header{
+    <link href="~/Content/Css/pagination.css" rel="stylesheet" />
+}
+<div class="row">
+    <div class="col-sm-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>用户中心</h5>
+            </div>
+
+            <div class="ibox-content">
+                <div class="row">
+                    @using (Html.BeginForm("UserList", "User", FormMethod.Get, new { id = "searchForm" }))
+                    {
+                        <div class="col-sm-4 m-b-xs">
+                            <label class="col-sm-2 control-label text-right">账号</label>
+                            <div class="col-sm-10">
+                                <input class="input-sm form-control" type="text" name="AccountNo" value="@condition.AccountNo" />
+                            </div>
+                        </div>
+                        <div class="col-sm-4 m-b-xs">
+                            <label class="col-sm-2 control-label text-right">用户名</label>
+                            <div class="col-sm-10">
+                                <input class="input-sm form-control" type="text" name="AccountName" value="@condition.AccountName" />
+                            </div>
+                        </div>
+                        <div class="col-sm-2 m-b-xs">
+                            <button type="submit" id="btnSubmit" class="btn btn-sm btn-primary">
+                                <i class="glyphicon glyphicon-zoom-in"></i>
+                                搜索
+                            </button>
+                            <a id="btnAddRole" href="javascript:void(0)" class="btn btn-sm btn-success" onclick="openAddUser()">
+                                <i class="glyphicon glyphicon-plus-sign"></i>
+                                添加
+                            </a>
+                        </div>
+                    }
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>账号</th>
+                                <th>用户名</th>
+                                <th>邮箱</th>
+                                <th>电话</th>
+                                <th>创建时间</th>
+                                <th>管理员</th>
+                                <th>状态</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @if (data == null || !data.Any())
+                            {
+                                <tr>
+                                    <td colspan="18" style="text-align: center;">暂无数据</td>
+                                </tr>
+                            }
+                            else
+                            {
+                                foreach (var item in data)
+                                {
+                                    <tr>
+                                        <td>@item.Id</td>
+                                        <td>@item.AccountNo</td>
+                                        <td>@item.AccountName</td>
+                                        <td>@item.Mail</td>
+                                        <td>@item.Mobile</td>
+                                        <td>@item.CreateTime.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                                        <td>@item.IsAdmin</td>
+                                        <td>@item.Status</td>
+                                        <td>
+                                            @{
+                                                var serializeObject = item.SerializeObject();
+                                            }
+                                            <a href="@Url.Action("PermissionRoleList", "PermissionRole", new {accountId = item.Id, accountName = item.AccountName})"><i class="glyphicon glyphicon-user text-navy"></i>权限</a>
+                                            @*<a href="javascript:void(0)" data="@serializeObject" onclick="updateRole(this)"><i class="glyphicon glyphicon-pencil text-navy"></i>修改</a>
+                                                <a href="javascript:void(0)" data="@serializeObject" onclick="removeRoele(this)"><i class="glyphicon glyphicon-trash text-navy"></i>删除</a>*@
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <div class="fixed-table-pagination" style="display: block;">
+                    @Html.Pager(data, new PagerOptions())
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="addUser" style="width: 500px; display: none;">
+    <form class="form-horizontal" style="width: 450px; margin-top:10px;">
+        <div class="form-group">
+            <label class="col-sm-3 control-label">帐号：</label>
+            <div class="col-sm-8">
+                <input type="text" class="form-control" id="txtAccountNo" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">用户名：</label>
+            <div class="col-sm-8">
+                <input type="text" class="form-control" id="txtAccountName" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">邮箱：</label>
+            <div class="col-sm-8">
+                <input type="text" class="form-control" id="txtMail" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">手机：</label>
+            <div class="col-sm-8">
+                <input type="text" class="form-control" id="txtMobile" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-8">
+                <a id="btnEp" class="btn btn-w-m btn-info" href="javascript:void(0)" onclick="saveAddUser()">确定</a>
+                <a id="btnCancel" class="btn btn-w-m btn-white" href="javascript:closeEditRole(0)">取消</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Footer
+{
+    <script src="~/Content/Scripts/views/Account/User/UserList.js"></script>
+}

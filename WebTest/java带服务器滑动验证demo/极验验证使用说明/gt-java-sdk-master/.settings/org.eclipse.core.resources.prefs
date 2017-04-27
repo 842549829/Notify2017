@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/com/geetest/sdk/java/GeetestMsgLib.java=UTF-8
+encoding//src/com/geetest/sdk/java/msg/demo/GeetestMsgConfig.java=UTF-8
+encoding//src/com/geetest/sdk/java/msg/demo/StartMsgCapthcaServlet.java=UTF-8
+encoding//src/com/geetest/sdk/java/msg/demo/VerifyGeetestServlet.java=UTF-8
+encoding//src/com/geetest/sdk/java/msg/demo/VerifyMsgServlet.java=UTF-8
+encoding//src/com/geetest/sdk/java/web/demo/GeetestConfig.java=UTF-8
+encoding//src/com/geetest/sdk/java/web/demo/StartCapthcaServlet.java=UTF-8
+encoding//src/com/geetest/sdk/java/web/demo/VerifyLoginServlet.java=UTF-8

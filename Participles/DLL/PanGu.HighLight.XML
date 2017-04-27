@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PanGu.HighLight</name>
+    </assembly>
+    <members>
+        <member name="P:PanGu.HighLight.Fragment.Start">
+            <summary>
+            Get or set the start position in wordinfo list
+            </summary>
+        </member>
+        <member name="P:PanGu.HighLight.Fragment.End">
+            <summary>
+            Get or set the end position in wordinfo list
+            </summary>
+        </member>
+        <member name="P:PanGu.HighLight.Fragment.Rank">
+            <summary>
+            Get or set the rank of this fragment
+            </summary>
+        </member>
+        <member name="M:PanGu.HighLight.SimpleHTMLFormatter.#ctor(System.String,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="preTag">prefix tag</param>
+            <param name="postTag">postfix tag</param>
+        </member>
+        <!-- 对于成员“P:PanGu.HighLight.SimpleHTMLFormatter.PreTag”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:PanGu.HighLight.SimpleHTMLFormatter.PostTag”忽略有格式错误的 XML 注释 -->
+        <member name="M:PanGu.HighLight.Highlighter.GetBestFragment(System.String,System.String)">
+            <summary>
+            Get best fragment
+            </summary>
+            <param name="keywords">keywords</param>
+            <param name="content">content</param>
+            <returns></returns>
+        </member>
+        <member name="M:PanGu.HighLight.Highlighter.GetFragments(System.String,System.String,System.Int32)">
+            <summary>
+            Get the fragments 
+            </summary>
+            <param name="keywords">keywords</param>
+            <param name="content">content</param>
+            <param name="maxFragments">max fragments will be outputed</param>
+            <returns></returns>
+        </member>
+        <member name="P:PanGu.HighLight.Highlighter.FragmentSize">
+            <summary>
+            set or get fragment size.
+            </summary>
+        </member>
+    </members>
+</doc>

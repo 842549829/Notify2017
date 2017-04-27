@@ -1,0 +1,55 @@
+﻿@section Header
+{
+    <link href="~/Content/Scripts/tools/zTree_v3/css/zTreeStyle/zTreeStyle.css" rel="stylesheet" />
+    <script src="~/Content/Scripts/tools/zTree_v3/js/jquery.ztree.core-3.5.js"></script>
+    <script src="~/Content/Scripts/tools/zTree_v3/js/jquery.ztree.excheck-3.5.js"></script>
+    <script src="~/Content/Scripts/tools/zTree_v3/js/jquery.ztree.exedit-3.5.js"></script>
+    <script src="~/Content/Scripts/views/Permission/Menu/MenuList.js"></script>
+    <link href="~/Content/Css/Permission/Menu/MenuList.css" rel="stylesheet" />
+}
+
+<div class="content_wrap">
+    <div class="item" style="width: 20%; height: 500px;">
+        <div class="easyui-panel" title="菜单栏目" style="width: 100%; height: 500px;">
+            <ul id="tree" class="ztree"></ul>
+        </div>
+    </div>
+    <div class="item" style="width: 75%; height: 500px; margin-left: 10px;">
+        <div class="easyui-panel" title="菜单维护" style="width: 100%; height: 500px;">
+            <table class="form">
+                <tr>
+                    <td>名称</td>
+                    <td><input type="text" id="txtMenuName"/></td>
+                </tr>
+                <tr>
+                    <td>URL</td>
+                    <td><input type="text" id="txtMenuUrl"/></td>
+                </tr>
+                <tr>
+                    <td>序号</td>
+                    <td><input type="text" id="txtMenuSort"/></td>
+                </tr>
+                <tr>
+                    <td>图标</td>
+                    <td><input type="text" id="txtMenuIcon" /></td>
+                </tr>
+                <tr>
+                    <td>描述</td>
+                    <td><textarea id="txtMenuDescription"></textarea></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="hidden" id="hidParnetId" value=""/>
+                        <input type="hidden" id="hidOperationType" value="Add"/>
+                        <input type="hidden" id="hidMenuId" value="" />
+                    </td>
+                    <td>
+                        <a id="btnEditMenu" href="javascript:void();" class="easyui-linkbutton" data-options="iconCls:'icon-ok'">保存数据</a>
+                        &nbsp;&nbsp;
+                        <a id="btClearMenu" href="javascript:void();" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'">清空数据</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
