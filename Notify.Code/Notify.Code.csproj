@@ -121,6 +121,7 @@
     <Compile Include="Features\DynamicExpressionAttribute.cs" />
     <Compile Include="IdentityCard\AreaCodeMapping.cs" />
     <Compile Include="IdentityCard\Validator.cs" />
+    <Compile Include="Lambda\ResolveExpression.cs" />
     <Compile Include="Mail\Send.cs" />
     <Compile Include="Net\ConnectedEventArgs.cs" />
     <Compile Include="Net\ConnectionDisconnectedEventArgs.cs" />
