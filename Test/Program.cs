@@ -15,6 +15,7 @@ using Notify.Code.Features;
 using Notify.Mail;
 using Notify.Model.Transfer;
 using Notify.Service;
+using Notify.Code.Lambda;
 
 namespace Test
 {
@@ -60,8 +61,13 @@ namespace Test
             //var strval = StringExtension.StringToUniCode(str);
 
             /****/
-            var strunicode = @"\u4e2d\u56fd";
-            var strunicodeval = StringExtension.UnicodeToString(strunicode); 
+            //var strunicode = @"\u4e2d\u56fd";
+            //var strunicodeval = StringExtension.UnicodeToString(strunicode); 
+
+            /*解析*/
+            UserId uid = new UserId();
+            uid.Where(userId => (userId.Id == "8" && userId.LoginCount > 5) || userId.Pws != null || userId.Id.Like("%aa") && userId.LoginCount.In(new int?[] { 4, 6, 8, 9 }) && userId.Id.NotIn(new string[] { "a", "b", "c", "d" }));
+            var sql = uid.WhereStr;
             Console.ReadLine();
         }
     }
