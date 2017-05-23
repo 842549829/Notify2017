@@ -80,7 +80,6 @@
     <Compile Include="Cache\Demonstration\City.cs" />
     <Compile Include="Cache\Demonstration\CityCollection.cs" />
     <Compile Include="Cache\Demonstration\Test.cs" />
-    <Compile Include="Code\MSOfficeConvertPdfHelper.cs" />
     <Compile Include="Encrypt\AES.cs" />
     <Compile Include="Encrypt\BigInteger.cs" />
     <Compile Include="Encrypt\RSACustom.cs" />
