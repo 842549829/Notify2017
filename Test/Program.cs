@@ -7,6 +7,7 @@ using System.Net.Mail;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
+using Newtonsoft.Json;
 using Notify.Code.Cache;
 using Notify.Code.Code;
 using Notify.Code.Encrypt;
@@ -65,10 +66,40 @@ namespace Test
             //var strunicodeval = StringExtension.UnicodeToString(strunicode); 
 
             /*解析*/
-            UserId uid = new UserId();
-            uid.Where(userId => (userId.Id == "8" && userId.LoginCount > 5) || userId.Pws != null || userId.Id.Like("%aa") && userId.LoginCount.In(new int?[] { 4, 6, 8, 9 }) && userId.Id.NotIn(new string[] { "a", "b", "c", "d" }));
-            var sql = uid.WhereStr;
+            //UserId uid = new UserId();
+            //uid.Where(userId => (userId.Id == "8" && userId.LoginCount > 5) || userId.Pws != null || userId.Id.Like("%aa") && userId.LoginCount.In(new int?[] { 4, 6, 8, 9 }) && userId.Id.NotIn(new string[] { "a", "b", "c", "d" }));
+            //var sql = uid.WhereStr;
+
+
+            var r = new T.T1
+            {
+                Name = "1",
+                A = new T.T1()
+            };
+            var rs = r.SerializeObject();
+            var obc = rs.DeserializeObject();
+
             Console.ReadLine();
+        }
+
+        public class T
+        {
+            [JsonObject(Title = "Result")]
+            public class T1
+            {
+                public string Name { get; set; }
+
+                [JsonProperty(PropertyName = "Result")]
+                public T1 A { get; set; }
+            }
+
+            [JsonObject(Title = "Result")]
+            public class T2
+            {
+                public string Name { get; set; }
+
+                public Result Result { get; set; }
+            }
         }
     }
 }
