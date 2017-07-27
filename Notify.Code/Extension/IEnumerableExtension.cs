@@ -815,7 +815,7 @@ namespace Notify.Code.Extension
         /// <param name="data">数据</param>
         /// <param name="condtion">条件</param>
         /// <returns>表达式</returns>
-        public static Func<TResult, bool> GetDynamicExpression<TResult, TCondition>(this IEnumerable<TResult> data, TCondition condtion)
+        public static Expression<Func<TResult, bool>> GetDynamicExpression<TResult, TCondition>(this IEnumerable<TResult> data, TCondition condtion)
             where TResult : class
             where TCondition : class
         {
@@ -867,8 +867,25 @@ namespace Notify.Code.Extension
                 }
             }
             var predicate = Expression.Lambda(totalExpr, param);
-            var dynamic = (Func<TResult, bool>)predicate.Compile();
+            //var dynamic = (Func<TResult, bool>)predicate.Compile();
+            var dynamic = (Expression<Func<TResult, bool>>)predicate;
             return dynamic;
+        }
+
+        /// <summary>
+        /// 获取动态表达式
+        /// </summary>
+        /// <typeparam name="TResult">表达式数据类型</typeparam>
+        /// <typeparam name="TCondition">表达式条件类型</typeparam>
+        /// <param name="data">数据</param>
+        /// <param name="condtion">条件</param>
+        /// <returns>表达式</returns>
+        public static Func<TResult, bool> GetDynamicExpressionDelegate<TResult, TCondition>(this IEnumerable<TResult> data, TCondition condtion)
+            where TResult : class
+            where TCondition : class
+        {
+            Expression<Func<TResult, bool>> dynamic = GetDynamicExpression(data, condtion);
+            return dynamic.Compile();
         }
 
         #region 测试
@@ -880,7 +897,7 @@ namespace Notify.Code.Extension
                 var data = GetTestData();
                 var codition = new Condition { Name = "X" };
                 var dynamicExpression = GetDynamicExpression(data, codition);
-                var query1 = data.Where(dynamicExpression);
+                //var query1 = data.Where(dynamicExpression);
             }
 
             public static List<Data> GetTestData()
@@ -926,7 +943,7 @@ namespace Notify.Code.Extension
             }
         }
 
-        public class Condition
+        public class Condition : Notify.Code.Lambda.BaseEntity
         {
             [DynamicExpression(Name = "AccountNO", Operator = "Contains")]
             public string Name { get; set; }
@@ -935,7 +952,7 @@ namespace Notify.Code.Extension
             public int? Age { get; set; }
         }
 
-        public class Data
+        public class Data : Notify.Code.Lambda.BaseEntity
         {
             public string AccountNO { get; set; }
 
